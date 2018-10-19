@@ -273,7 +273,7 @@ void FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, bool fProofOfStak
 
 std::string GetRequiredPaymentsString(int nBlockHeight)
 {
-    if (IsSporkActive(SPORK_13_ENABLE_SUPERBLOCKS) && budget.IsBudgetPaymentBlock(nBlockHeight)) {
+    if (IsSporkActive(SPORK_13_ENABLE_SUPERBLOCKS)/* && budget.IsBudgetPaymentBlock(pindexPrev->nHeight + 1)*/) {
         return budget.GetRequiredPaymentsString(nBlockHeight);
     } else {
         return masternodePayments.GetRequiredPaymentsString(nBlockHeight);
