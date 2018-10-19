@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones PIVX para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your DWE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones DWE para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones PIVX para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your DWE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones DWE para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus PIVs no sean robados mediante malware de su ordenador.</translation>
+        <source>DWE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DWEs from being stolen by malware infecting your computer.</source>
+        <translation>DWE se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus DWEs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DWE&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS DWE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección PIVX que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+        <source>Enter a Dwe Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección DWE que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>La dirección PIVX con la que desee firmar el mensaje</translation>
+        <source>The DWE address to sign the message with</source>
+        <translation>La dirección DWE con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección PIVX</translation>
+        <source>Sign the message to prove you own this DWE address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección DWE</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>La dirección PIVX con la que se firmó el mensaje</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>La dirección DWE con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección PIVX especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección DWE especificada</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,15 +602,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>Núcleo PIVX</translation>
+        <source>DWE Core</source>
+        <translation>Núcleo DWE</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Enviar coins a una dirección PIVX</translation>
+        <source>Send coins to a DWE address</source>
+        <translation>Enviar coins a una dirección DWE</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
+        <source>Request payments (generates QR codes and dwe: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -626,24 +626,24 @@
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Sobre el núcleo de PIVX</translation>
+        <source>&amp;About DWE Core</source>
+        <translation>&amp;Sobre el núcleo de DWE</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Mostrar información sobre el núcleo de PIVX</translation>
+        <source>Show information about DWE Core</source>
+        <translation>Mostrar información sobre el núcleo de DWE</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modificar las opciones de configuración de PIVX</translation>
+        <source>Modify configuration options for DWE</source>
+        <translation>Modificar las opciones de configuración de DWE</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones PIVX para demostrar que le pertenecen</translation>
+        <source>Sign messages with your DWE addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones DWE para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección PIVX especificada</translation>
+        <source>Verify messages to ensure they were signed with specified DWE addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección DWE especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Abrir un PIVX: URI o solicitud de pago</translation>
+        <source>Open a DWE: URI or payment request</source>
+        <translation>Abrir un DWE: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostrar la ayuda de PIVX Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the DWE Core help message to get a list with possible DWE command-line options</source>
+        <translation>Mostrar la ayuda de DWE Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>Cliente PIVX Core</translation>
+        <source>DWE Core client</source>
+        <translation>Cliente DWE Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PIVX network</source>
-        <translation><numerusform>%n conexión(es) activa a la red PIVX</numerusform><numerusform>%n conexion(es) activas a la red PIVX</numerusform></translation>
+        <source>%n active connection(s) to DWE network</source>
+        <translation><numerusform>%n conexión(es) activa a la red DWE</numerusform><numerusform>%n conexion(es) activas a la red DWE</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -845,8 +845,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (pivx.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dwe.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (dwe.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>La dirección introducida "%1" no es una dirección PIVX válida.</translation>
+        <source>The entered address "%1" is not a valid DWE address.</source>
+        <translation>La dirección introducida "%1" no es una dirección DWE válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>Núcleo PIVX</translation>
+        <source>DWE Core</source>
+        <translation>Núcleo DWE</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Acerca de PIVX Core</translation>
+        <source>About DWE Core</source>
+        <translation>Acerca de DWE Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Bienvenido/a a PIVX Core.</translation>
+        <source>Welcome to DWE Core.</source>
+        <translation>Bienvenido/a a DWE Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará PIVX Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where DWE Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará DWE Core sus datos.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core descargará y guardará una copia de la cadena de bloques PIVX. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>DWE Core will download and store a copy of the DWE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DWE Core descargará y guardará una copia de la cadena de bloques DWE. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>Núcleo PIVX</translation>
+        <source>DWE Core</source>
+        <translation>Núcleo DWE</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DWE addresses after it matures.
+To Add: enter percentage to give and DWE address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones PIVX después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones PIVX a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones DWE después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones DWE a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1563,48 +1563,48 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 DWE</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 DWE</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 DWE</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 DWE</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 PIV para anonimizar 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 DWE to anonymize 10000 DWE</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 DWE para anonimizar 10000 DWE</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 PIV para anonimizar 10000 PIV.</translation>
+        <source>This option is moderately fast and will cost about 0.05 DWE to anonymize 10000 DWE</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 DWE para anonimizar 10000 DWE.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV por 10000 PIV que anonimizas.</translation>
+        <source>0.1 DWE per 10000 DWE you anonymize.</source>
+        <translation>0.1 DWE por 10000 DWE que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PIVX's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de PIVX.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DWE's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de DWE.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PIVX's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de PIVX.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DWE's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de DWE.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PIVX's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de PIVX.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DWE's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de DWE.</translation>
     </message>
 </context>
 <context>
@@ -1665,8 +1665,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente PIVX en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the DWE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente DWE en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1685,12 +1685,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Arrancar PIVX automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start DWE after logging in to the system.</source>
+        <translation>Arrancar DWE automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Arrancar PIVX al inicio del sistema</translation>
+        <source>&amp;Start DWE on system login</source>
+        <translation>&amp;Arrancar DWE al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1717,38 +1717,38 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DWE.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar DWE.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/dwe-project/dwe-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/dwe-project/dwe-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de PIVs entrantes que serán automáticamente convertidos a zPIV a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming DWE which get automatically converted to zDWE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de DWEs entrantes que serán automáticamente convertidos a zDWE a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Porcentaje de zPIV autogenerados</translation>
+        <source>Percentage of autominted zDWE</source>
+        <translation>Porcentaje de zDWE autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes PIV disponibles para este tamaño de billete</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough DWE for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes DWE disponibles para este tamaño de billete</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Tamaño de billete zPIV preferido en la creación automática de dinero</translation>
+        <source>Preferred Automint zDWE Denomination</source>
+        <translation>Tamaño de billete zDWE preferido en la creación automática de dinero</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red PIVX mediante un proxy SOCKS5.</translation>
+        <source>Connect to the DWE network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red DWE mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1878,8 +1878,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>PIV Balances</source>
-        <translation>Balances PIV</translation>
+        <source>DWE Balances</source>
+        <translation>Balances DWE</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1906,8 +1906,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red PIVX después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red DWE después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1942,20 +1942,20 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Disponible:</translation>
     </message>
     <message>
-        <source>PIV:</source>
-        <translation>PIV:</translation>
+        <source>DWE:</source>
+        <translation>DWE:</translation>
     </message>
     <message>
-        <source>zPIV:</source>
-        <translation>zPIV:</translation>
+        <source>zDWE:</source>
+        <translation>zDWE:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 DWE</source>
+        <translation>0.000 000 00 DWE</translation>
     </message>
     <message>
         <source>Zerocoin Balance</source>
@@ -1993,12 +1993,12 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>No se puede iniciar pivx: módulo click-to-pay</translation>
+        <source>Cannot start dwe: click-to-pay handler</source>
+        <translation>No se puede iniciar dwe: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección PIVX inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DWE address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección DWE inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2079,24 +2079,24 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>PIV which were anonymized via Zerocin Protocol</source>
-        <translation>PIV que fueron anonimizados mediante Protocolo Zerocoin</translation>
+        <source>DWE which were anonymized via Zerocin Protocol</source>
+        <translation>DWE que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin PIV (zPIV)</source>
-        <translation>Zerocoin PIV (zPIV)</translation>
+        <source>Zerocoin DWE (zDWE)</source>
+        <translation>Zerocoin DWE (zDWE)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Acciones Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red PIVX después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red DWE después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
-        <translation>Introduzca la cantidad de Piv que desea convertir a zPiv</translation>
+        <source>Enter an amount of Dwe to convert to zDwe</source>
+        <translation>Introduzca la cantidad de Dwe que desea convertir a zDwe</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2107,16 +2107,16 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zDWE</source>
+        <translation>zDWE</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Disponible para Creación de moneda:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 DWE</source>
+        <translation>0.000 000 00 DWE</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2151,12 +2151,12 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Estado y/o Mensajes de la última Acción de Creación de moneda.</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
-        <translation>Control zPiv</translation>
+        <source>zDwe Control</source>
+        <translation>Control zDwe</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
-        <translation>zPiv Seleccionados:</translation>
+        <source>zDwe Selected:</source>
+        <translation>zDwe Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2175,8 +2175,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Balance disponible:</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zDWE</source>
+        <translation>0 zDWE</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2195,8 +2195,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>La dirección PIVX a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
+        <source>The DWE address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>La dirección DWE a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2403,8 +2403,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Monedas creadas correctamente</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation>zPIV en</translation>
+        <source> zDWE in </source>
+        <translation>zDWE en</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2437,8 +2437,8 @@ Por favor espere...</translation>
         <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Dirección Pivx Inválida</translation>
+        <source>Invalid Dwe Address</source>
+        <translation>Dirección Dwe Inválida</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2477,8 +2477,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gastar Zerocoin falló con estado =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
-        <translation>Gastar zPiv #:</translation>
+        <source>zDwe Spend #: </source>
+        <translation>Gastar zDwe #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2501,8 +2501,8 @@ Por favor tenga paciencia...</translation>
         <translation>dirección:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
-        <translation>Creación de zPiv</translation>
+        <source>zDwe Mint</source>
+        <translation>Creación de zDwe</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2524,8 +2524,8 @@ Por favor tenga paciencia...</translation>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>Introduzca una dirección PIVX (p.e. %1)</translation>
+        <source>Enter a DWE address (e.g. %1)</source>
+        <translation>Introduzca una dirección DWE (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2662,8 +2662,8 @@ Por favor tenga paciencia...</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración PIVX en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the DWE debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración DWE en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2830,8 +2830,8 @@ Por favor tenga paciencia...</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Bienvenido a la consola RPC de PIVX.</translation>
+        <source>Welcome to the DWE RPC console.</source>
+        <translation>Bienvenido a la consola RPC de DWE.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2901,12 +2901,12 @@ Por favor tenga paciencia...</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red PIVX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DWE network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red DWE.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red PIVX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DWE network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red DWE.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3130,8 +3130,8 @@ Por favor tenga paciencia...</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 DWE</source>
+        <translation>0 DWE</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3182,16 +3182,16 @@ Por favor tenga paciencia...</translation>
         <translation>Monedas seleccionadas automáticamente</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uPIVs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uPIVs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uPIVs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uDWEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDWEs in fee,&lt;br /&gt;while "at least" pays 1000 uDWEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uDWEs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uDWEs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uDWEs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uPIVs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uPIVs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uPIVs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uDWEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDWEs in fee,&lt;br /&gt;while "total at least" pays 1000 uDWEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uDWEs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uDWEs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uDWEs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones PIVX de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DWE transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones DWE de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3238,8 +3238,8 @@ Por favor tenga paciencia...</translation>
         <translation>Añadir Destinata&amp;rio</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>PIV anonimizados</translation>
+        <source>Anonymized DWE</source>
+        <translation>DWE anonimizados</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3294,8 +3294,8 @@ Por favor tenga paciencia...</translation>
         <translation>fondos anónimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
-        <translation>Advertencia: Direcciones PIVX inválidas</translation>
+        <source>Warning: Invalid DWE address</source>
+        <translation>Advertencia: Direcciones DWE inválidas</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3397,8 +3397,8 @@ Por favor tenga paciencia...</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>La dirección PIVX a la cual enviar el pago</translation>
+        <source>The DWE address to send the payment to</source>
+        <translation>La dirección DWE a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3437,8 +3437,8 @@ Por favor tenga paciencia...</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Un mensaje adjunto al PIVX: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red PIVX.</translation>
+        <source>A message that was attached to the DWE: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DWE network.</source>
+        <translation>Un mensaje adjunto al DWE: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red DWE.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3464,8 +3464,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>El programa PIVX se está cerrando...</translation>
+        <source>DWE Core is shutting down...</source>
+        <translation>El programa DWE se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3487,8 +3487,8 @@ Por favor tenga paciencia...</translation>
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>La dirección PIVX con la que desee firmar el mensaje</translation>
+        <source>The DWE address to sign the message with</source>
+        <translation>La dirección DWE con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3519,16 +3519,16 @@ Por favor tenga paciencia...</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección PIVX</translation>
+        <source>Sign the message to prove you own this DWE address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección DWE</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>La dirección PIVX con la que se firmó el mensaje</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>La dirección DWE con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección PIVX especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección DWE especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3614,8 +3614,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>Núcleo PIVX</translation>
+        <source>DWE Core</source>
+        <translation>Núcleo DWE</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3630,8 +3630,8 @@ Por favor tenga paciencia...</translation>
         <translation>Los desarrolladores de Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>Los desarrolladores de PIVX Core</translation>
+        <source>The DWE Core developers</source>
+        <translation>Los desarrolladores de DWE Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3918,32 +3918,32 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
-        <translation>Piv convertidos a zPiv</translation>
+        <source>Converted Dwe to zDwe</source>
+        <translation>Dwe convertidos a zDwe</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
-        <translation>zPiv Gastados</translation>
+        <source>Spent zDwe</source>
+        <translation>zDwe Gastados</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Piv recibidos desde zPiv</translation>
+        <source>Received Dwe from zDwe</source>
+        <translation>Dwe recibidos desde zDwe</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
-        <translation>Cambio Creado en zPiv por un Gasto zPiv</translation>
+        <source>Minted Change as zDwe from zDwe Spend</source>
+        <translation>Cambio Creado en zDwe por un Gasto zDwe</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
-        <translation>zPiv convertidos en Piv</translation>
+        <source>Converted zDwe to Dwe</source>
+        <translation>zDwe convertidos en Dwe</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
-        <translation>Acumulador zPiv</translation>
+        <source>zDwe Accumulator</source>
+        <translation>Acumulador zDwe</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4053,8 +4053,8 @@ Por favor tenga paciencia...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Piv recibidos desde zPiv</translation>
+        <source>Received Dwe from zDwe</source>
+        <translation>Dwe recibidos desde zDwe</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4065,8 +4065,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gasto de Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
-        <translation>Gasto de Zerocoin, Cambio en zPiv</translation>
+        <source>Zerocoin Spend, Change in zDwe</source>
+        <translation>Gasto de Zerocoin, Cambio en zDwe</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4230,10 +4230,10 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZDweControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
-        <translation>Seleccione zPiv a Gastar</translation>
+        <source>Select zDwe to Spend</source>
+        <translation>Seleccione zDwe a Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4244,8 +4244,8 @@ Por favor tenga paciencia...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zDwe</source>
+        <translation>zDwe</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4257,7 +4257,7 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>dwe-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4287,8 +4287,8 @@ Por favor tenga paciencia...</translation>
         <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. PIVX Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. DWE Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. DWE Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4339,12 +4339,12 @@ Por favor tenga paciencia...</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en PIV/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in DWE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en DWE/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en PIV/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in DWE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en DWE/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4439,44 +4439,44 @@ Por favor tenga paciencia...</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use pivxd, or the -server option to pivx-qt, you must set an rpcpassword in the configuration file:
+        <source>To use dwed, or the -server option to dwe-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pivxrpc
+rpcuser=dwerpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "DWE Alert" admin@foo.com
 </source>
-        <translation>Para usar pivxd, o la opción -server de pivx-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar dwed, o la opción -server de dwe-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=pivx
+rpcuser=dwe
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "DWE Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que PIVX Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. DWE Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que DWE Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DWE.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 10000 DWE.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DWE.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 10000 DWE.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4491,8 +4491,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora PIVX Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DWE Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora DWE Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4647,8 +4647,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The DWE Core Developers</source>
+        <translation>Copyright (C) 2015-%i The DWE Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4727,8 +4727,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo PIVX</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DWE Core</source>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo DWE</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4779,8 +4779,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en PIV/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in DWE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en DWE/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4839,8 +4839,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. PIVX Core se cerrará.</translation>
+        <source>Initialization sanity check failed. DWE Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. DWE Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5499,8 +5499,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "PIVX Alert" admin@foo.com
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>Monedero necesita ser reescrito: reinicie PIVX Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart DWE Core to complete</source>
+        <translation>Monedero necesita ser reescrito: reinicie DWE Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

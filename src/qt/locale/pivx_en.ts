@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your DWE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your DWE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>DWE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DWEs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DWE&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a Dwe Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The PIVX address to sign the message with</source>
+        <source>The DWE address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this PIVX address</source>
+        <source>Sign the message to prove you own this DWE address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The PIVX address the message was signed with</source>
+        <source>The DWE address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zPIV</source>
+        <source>Privacy Actions for zDWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -811,17 +811,17 @@
     <message>
         <location line="-427"/>
         <location line="+890"/>
-        <source>PIVX Core</source>
+        <source>DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-707"/>
-        <source>Send coins to a PIVX address</source>
+        <source>Send coins to a DWE address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
+        <source>Request payments (generates QR codes and dwe: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -841,27 +841,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About PIVX Core</source>
+        <source>&amp;About DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about PIVX Core</source>
+        <source>Show information about DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for PIVX</source>
+        <source>Modify configuration options for DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
+        <source>Sign messages with your DWE addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
+        <source>Verify messages to ensure they were signed with specified DWE addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -901,7 +901,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a PIVX: URI or payment request</source>
+        <source>Open a DWE: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -916,17 +916,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
+        <source>Show the DWE Core help message to get a list with possible DWE command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+214"/>
-        <source>PIVX Core client</source>
+        <source>DWE Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to PIVX network</source>
+        <source>%n active connection(s) to DWE network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1127,7 +1127,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dwe.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1496,7 +1496,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid PIVX address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid DWE address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1552,7 +1552,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>PIVX Core</source>
+        <source>DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1563,7 +1563,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About PIVX Core</source>
+        <source>About DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1621,17 +1621,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to PIVX Core.</source>
+        <source>Welcome to DWE Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where DWE Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>DWE Core will download and store a copy of the DWE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1646,7 +1646,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>PIVX Core</source>
+        <source>DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1822,8 +1822,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DWE addresses after it matures.
+To Add: enter percentage to give and DWE address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2078,7 +2078,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send PIV to</source>
+        <source>Add destinations to send DWE to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2210,12 +2210,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2225,12 +2225,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
+        <source>This option is the quickest and will cost about ~0.025 DWE to anonymize 10000 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
+        <source>This option is moderately fast and will cost about 0.05 DWE to anonymize 10000 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2240,7 +2240,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
+        <source>0.1 DWE per 10000 DWE you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2252,17 +2252,17 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-27"/>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PIVX&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DWE&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PIVX&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DWE&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PIVX&apos;s configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DWE&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2338,7 +2338,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the DWE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2363,12 +2363,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start PIVX after logging in to the system.</source>
+        <source>Automatically start DWE after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start PIVX on system login</source>
+        <source>&amp;Start DWE on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2403,13 +2403,13 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DWE.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/dwe-project/dwe-project-translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2419,28 +2419,28 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming DWE which get automatically converted to zDWE via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zPIV</source>
+        <source>Percentage of autominted zDWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough DWE for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zPIV Denomination</source>
+        <source>Preferred Automint zDWE Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
+        <source>Connect to the DWE network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2605,7 +2605,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
     <message>
         <location line="+43"/>
-        <source>PIV Balances</source>
+        <source>DWE Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2644,7 +2644,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2706,17 +2706,17 @@ https://www.transifex.com/pivx-project/pivx-project-translations</source>
     </message>
     <message>
         <location line="+36"/>
-        <source>PIV:</source>
+        <source>DWE:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zPIV:</source>
+        <source>zDWE:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zDWE.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2729,7 +2729,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
+        <source>Locked DWE or Masternode collaterals. These are excluded from zDWE minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2738,7 +2738,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 PIV</source>
+        <source>0.000 000 00 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2749,7 +2749,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked PIVs. These can be used for zPIV minting.</source>
+        <source>Unlocked DWEs. These can be used for zDWE minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2766,7 +2766,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zDWE are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2777,7 +2777,7 @@ These zPIV are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zPIV, unconfirmed and immature zPIV included.</source>
+        <source>All available zDWE, unconfirmed and immature zDWE included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2807,7 +2807,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zDWE.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2819,13 +2819,13 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <location line="+1"/>
-        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in pivx.conf.</source>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in dwe.conf.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>AutoMint is currently disabled.
-To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in pivx.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in dwe.conf</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2865,12 +2865,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start pivx: click-to-pay handler</source>
+        <source>Cannot start dwe: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid DWE address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2973,12 +2973,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>PIV which were anonymized via Zerocin Protocol</source>
+        <source>DWE which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin PIV (zPIV)</source>
+        <source>Zerocoin DWE (zDWE)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2988,13 +2988,13 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+10"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of Piv to convert to zPiv</source>
+        <source>Enter an amount of Dwe to convert to zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3014,7 +3014,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zPIV</source>
+        <source>zDWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3029,7 +3029,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 PIV</source>
+        <source>0.000 000 00 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3074,12 +3074,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+45"/>
-        <source>zPiv Control</source>
+        <source>zDwe Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zPiv Selected:</source>
+        <source>zDwe Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3104,7 +3104,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zPIV for spending</source>
+        <source>Available (mature and spendable) zDWE for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3114,15 +3114,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zDWE for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zDWE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zPIV</source>
+        <source>0 zDWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3147,7 +3147,7 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
     </message>
     <message>
         <location line="+27"/>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The DWE address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3213,7 +3213,7 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
+        <source>Total Balance including unconfirmed and immature zDWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3424,13 +3424,13 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     <message>
         <location line="+45"/>
         <location line="+3"/>
-        <source>zPIV is currently disabled due to maintenance.</source>
+        <source>zDWE is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+50"/>
         <location line="+113"/>
-        <source>zPIV is currently undergoing maintenance.</source>
+        <source>zDWE is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3455,7 +3455,7 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zPIV in </source>
+        <source> zDWE in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3510,7 +3510,7 @@ Maximum allowed: </source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid Dwe Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3567,7 +3567,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>zPiv Spend #: </source>
+        <source>zDwe Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3597,7 +3597,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>zPiv Mint</source>
+        <source>zDwe Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3625,7 +3625,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a PIVX address (e.g. %1)</source>
+        <source>Enter a DWE address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3820,7 +3820,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the DWE debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4047,7 +4047,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the PIVX RPC console.</source>
+        <source>Welcome to the DWE RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4163,12 +4163,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DWE network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DWE network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4451,7 +4451,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 PIV</source>
+        <source>0 DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4521,18 +4521,18 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPIVs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uDWEs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDWEs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDWEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPIVs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uDWEs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDWEs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDWEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DWE transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4592,7 +4592,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized PIV</source>
+        <source>Anonymized DWE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4663,7 +4663,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+622"/>
-        <source>Warning: Invalid PIVX address</source>
+        <source>Warning: Invalid DWE address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4802,7 +4802,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The PIVX address to send the payment to</source>
+        <source>The DWE address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4856,7 +4856,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <source>A message that was attached to the DWE: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DWE network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4891,7 +4891,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>PIVX Core is shutting down...</source>
+        <source>DWE Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4919,7 +4919,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+18"/>
-        <source>The PIVX address to sign the message with</source>
+        <source>The DWE address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4961,17 +4961,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this PIVX address</source>
+        <source>Sign the message to prove you own this DWE address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The PIVX address the message was signed with</source>
+        <source>The DWE address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5086,7 +5086,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>PIVX Core</source>
+        <source>DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5106,7 +5106,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>The PIVX Core developers</source>
+        <source>The DWE Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5533,27 +5533,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted Piv to zPiv</source>
+        <source>Converted Dwe to zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zPiv</source>
+        <source>Spent zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received Piv from zPiv</source>
+        <source>Received Dwe from zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zPiv from zPiv Spend</source>
+        <source>Minted Change as zDwe from zDwe Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zPiv to Piv</source>
+        <source>Converted zDwe to Dwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5563,7 +5563,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+22"/>
-        <source>zPiv Accumulator</source>
+        <source>zDwe Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5702,7 +5702,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received Piv from zPiv</source>
+        <source>Received Dwe from zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5717,7 +5717,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Zerocoin Spend, Change in zPiv</source>
+        <source>Zerocoin Spend, Change in zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5874,7 +5874,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DWE.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5927,10 +5927,10 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZDweControlDialog</name>
     <message>
-        <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
-        <source>Select zPiv to Spend</source>
+        <location filename="../forms/zdwecontroldialog.ui" line="+20"/>
+        <source>Select zDwe to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5946,7 +5946,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zPiv</source>
+        <source>zDwe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5961,9 +5961,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>dwe-core</name>
     <message>
-        <location filename="../pivxstrings.cpp" line="+15"/>
+        <location filename="../dwestrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5999,7 +5999,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DWE Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6064,12 +6064,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in DWE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in DWE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6194,22 +6194,22 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+4"/>
-        <source>To use pivxd, or the -server option to pivx-qt, you must set an rpcpassword in the configuration file:
+        <source>To use dwed, or the -server option to dwe-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=pivxrpc
+rpcuser=dwerpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DWE Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. DWE Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6219,12 +6219,12 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DWE.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DWE.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6244,7 +6244,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DWE Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6439,7 +6439,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <source>Copyright (C) 2015-%i The DWE Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6554,7 +6554,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of DWE Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6634,7 +6634,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in DWE/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6709,7 +6709,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
+        <source>Initialization sanity check failed. DWE Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6826,7 +6826,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all DWE specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6836,7 +6836,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable automatic wallet backups triggered after each zPiv minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zDwe minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7586,7 +7586,7 @@ for example: alertnotify=echo %%s | mail -s &quot;PIVX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
+        <source>Wallet needed to be rewritten: restart DWE Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

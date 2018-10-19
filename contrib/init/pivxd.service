@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=DWE's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=dwe
+Group=dwe
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/dwed/dwed.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/dwed -daemon -pid=/var/lib/dwed/dwed.pid \
+          -conf=/etc/dwe/dwe.conf -datadir=/var/lib/dwed
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/dwe-cli -conf=/etc/dwe/dwe.conf \
+         -datadir=/var/lib/dwed stop
 
 Restart=always
 PrivateTmp=true

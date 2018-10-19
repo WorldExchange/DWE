@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun PIVX osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your DWE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun DWE osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun PIVX osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your DWE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun DWE osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PIVien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>DWE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DWEs from being stolen by malware infecting your computer.</source>
+        <translation>DWE sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella DWEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki PIVisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DWE&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki DWEisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,8 +235,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Pivx osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a Dwe Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä Dwe osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The DWE address to sign the message with</source>
+        <translation>DWE osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän PIVX osoitteen</translation>
+        <source>Sign the message to prove you own this DWE address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DWE osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>DWE osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla PIVX osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DWE osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ydin</translation>
+        <source>DWE Core</source>
+        <translation>DWE Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Lähetä kolikkoja PIVX osoitteeseen</translation>
+        <source>Send coins to a DWE address</source>
+        <translation>Lähetä kolikkoja DWE osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja pivx: URIja)</translation>
+        <source>Request payments (generates QR codes and dwe: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja dwe: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>PIVX Core &amp;ytimestä</translation>
+        <source>&amp;About DWE Core</source>
+        <translation>DWE Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Näytä tietoja PIVX Ytimestä</translation>
+        <source>Show information about DWE Core</source>
+        <translation>Näytä tietoja DWE Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja PIVX:lle</translation>
+        <source>Modify configuration options for DWE</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja DWE:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
+        <source>Sign messages with your DWE addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä PIVX osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified DWE addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä DWE osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Avaa PIVX: URI tai pyydä maksua</translation>
+        <source>Open a DWE: URI or payment request</source>
+        <translation>Avaa DWE: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Näytä PIVX Ydin apuviesti saadaksesi lista mahdollisista PIVX komentolinja komennoista.</translation>
+        <source>Show the DWE Core help message to get a list with possible DWE command-line options</source>
+        <translation>Näytä DWE Ydin apuviesti saadaksesi lista mahdollisista DWE komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Ydin asiakasohjelma</translation>
+        <source>DWE Core client</source>
+        <translation>DWE Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ydin</translation>
+        <source>DWE Core</source>
+        <translation>DWE Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Tervetuloa PIVX Ytimeen.</translation>
+        <source>Welcome to DWE Core.</source>
+        <translation>Tervetuloa DWE Ytimeen.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ydin</translation>
+        <source>DWE Core</source>
+        <translation>DWE Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,32 +1150,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 PIVX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 DWE</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 DWE</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 PIVX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 DWE</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 DWE</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PIV anonymoidaksesi 10000 PIVX</translation>
+        <source>This option is the quickest and will cost about ~0.025 DWE to anonymize 10000 DWE</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DWE anonymoidaksesi 10000 DWE</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 PIVX anonymoidaksesi 10000 PIVX</translation>
+        <source>This option is moderately fast and will cost about 0.05 DWE to anonymize 10000 DWE</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 DWE anonymoidaksesi 10000 DWE</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 per 10000 PIVX, jotka anonymisoit.</translation>
+        <source>0.1 DWE per 10000 DWE you anonymize.</source>
+        <translation>0.1 per 10000 DWE, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1224,12 +1224,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä PIVX kun kirjaudut sisään.</translation>
+        <source>Automatically start DWE after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä DWE kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Aloita PIVX järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start DWE on system login</source>
+        <translation>&amp;Aloita DWE järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1248,12 +1248,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DWE.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä PIVX verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the DWE network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä DWE verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1557,8 +1557,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa PIVX debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the DWE debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa DWE debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1669,8 +1669,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Tervetuloa PIVX RPC konsoliin.</translation>
+        <source>Welcome to the DWE RPC console.</source>
+        <translation>Tervetuloa DWE RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1712,12 +1712,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana PIVX verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DWE network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana DWE verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana PIVX  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DWE network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana DWE  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1913,8 +1913,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 DWE</source>
+        <translation>0 DWE</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1993,8 +1993,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
-        <translation>Varoitus: Virheellinen PIVX osoite</translation>
+        <source>Warning: Invalid DWE address</source>
+        <translation>Varoitus: Virheellinen DWE osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2040,8 +2040,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>PIVX osoite johon maksu lähetetään</translation>
+        <source>The DWE address to send the payment to</source>
+        <translation>DWE osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2083,8 +2083,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX core sammuu...</translation>
+        <source>DWE Core is shutting down...</source>
+        <translation>DWE core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2102,8 +2102,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The DWE address to sign the message with</source>
+        <translation>DWE osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2134,16 +2134,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän PIVX osoitteen</translation>
+        <source>Sign the message to prove you own this DWE address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DWE osoitteen</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>DWE osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla PIVX osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DWE osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2225,8 +2225,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ydin</translation>
+        <source>DWE Core</source>
+        <translation>DWE Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2241,8 +2241,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX core kehittäjät</translation>
+        <source>The DWE Core developers</source>
+        <translation>DWE core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2545,14 +2545,14 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZDweControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dwe-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2602,8 +2602,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version PIVX Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DWE Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version DWE Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
