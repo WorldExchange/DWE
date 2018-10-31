@@ -112,12 +112,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x90;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xfd;
-        pchMessageStart[3] = 0xe9;
+        pchMessageStart[0] = 0x19;
+        pchMessageStart[1] = 0x94;
+        pchMessageStart[2] = 0x05;
+        pchMessageStart[3] = 0x12;
         vAlertPubKey = ParseHex("0000098d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
-        nDefaultPort = 14911;
+        nDefaultPort = 30808;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // DWE starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -132,10 +132,10 @@ public:
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 100080;
         nModifierUpdateBlock = 615800;
-        nZerocoinStartHeight = 863787;
-        nZerocoinStartTime = 1508214600; // October 17, 2017 4:30:00 AM
+        nZerocoinStartHeight = 11520;
+        nZerocoinStartTime = 1541671470; // October 17, 2017 4:30:00 AM
         nBlockEnforceSerialRange = 895400; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 908000; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 891737; //First block that bad serials emerged
@@ -163,12 +163,29 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1540982586;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 2402015;
+        genesis.nNonce = 835887;
+
+        hashGenesisBlock = uint256("0x000009feb354eae6f0b66e4b453ba7cbc25235b41154765059addc2d8af79b0b");
+        if (true && genesis.GetHash() != hashGenesisBlock)
+        {
+            printf("recalculating params for mainnet.\n");
+            // printf("old mainnet genesis nonce: %s\n");
+            // std::string nNonce = "nNonce is " + std::to_string(genesis.nNonce);
+            // std::cout << nNonce << '\n';
+            // printf("old mainnet genesis hash:  %s\n", hashGenesisBlock.ToString().c_str());
+            // deliberately empty for loop finds nonce value.
+            for(genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++){ }
+            printf("new mainnet genesis merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+            // printf("new mainnet genesis nonce: %s\n", genesis.nNonce.ToString().c_str());
+            std::string nNoncenew = "new mainnet genesis nonce: " + std::to_string(genesis.nNonce);
+            std::cout << nNoncenew << '\n';
+            printf("new mainnet genesis hash: %s\n", genesis.GetHash().ToString().c_str());
+        }
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        assert(hashGenesisBlock == uint256("0x000009feb354eae6f0b66e4b453ba7cbc25235b41154765059addc2d8af79b0b"));
         assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
         vSeeds.push_back(CDNSSeedData("45.32.119.203", "45.32.119.203"));
