@@ -4507,8 +4507,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DWE Alert" admin@foo.com
         <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
     </message>
     <message>
-        <source>(51472 could be used only on mainnet)</source>
-        <translation>(51472 kan alleen op mainnet worden gebruikt)</translation>
+        <source>(30808 could be used only on mainnet)</source>
+        <translation>(30808 kan alleen op mainnet worden gebruikt)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4519,8 +4519,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DWE Alert" admin@foo.com
         <translation>(standaard: 1)</translation>
     </message>
     <message>
-        <source>(must be 51472 for mainnet)</source>
-        <translation>(moet 51472 voor mainnet zijn)</translation>
+        <source>(must be 30808 for mainnet)</source>
+        <translation>(moet 30808 voor mainnet zijn)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
