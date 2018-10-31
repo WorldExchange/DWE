@@ -225,10 +225,10 @@ QT_TRANSLATE_NOOP("dwe-core", ""
 QT_TRANSLATE_NOOP("dwe-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("dwe-core", "(51472 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("dwe-core", "(30808 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("dwe-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("dwe-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("dwe-core", "(must be 51472 for mainnet)"),
+QT_TRANSLATE_NOOP("dwe-core", "(must be 30808 for mainnet)"),
 QT_TRANSLATE_NOOP("dwe-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("dwe-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("dwe-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
