@@ -114,12 +114,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // DWE: 1 day
         nTargetSpacing = 1 * 60;  // DWE: 1 minute
-        nMaturity = 20;
+        nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 150;
+        nLastPOWBlock = 60;
         nModifierUpdateBlock = 615800;
         nZerocoinStartHeight = 150;
         nZerocoinStartTime = 1541084400; // Nov 1, 2018 15:00:00 GMT
