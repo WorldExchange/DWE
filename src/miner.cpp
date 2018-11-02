@@ -421,6 +421,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
         uint256 nCheckpoint = 0;
         if(fZerocoinActive && !CalculateAccumulatorCheckpoint(nHeight, nCheckpoint)){
             LogPrintf("%s: failed to get accumulator checkpoint\n", __func__);
+            LogPrintf("nCheckpoint %s\n", nCheckpoint.ToString().c_str());
         }
         pblock->nAccumulatorCheckpoint = nCheckpoint;
         pblocktemplate->vTxSigOps[0] = GetLegacySigOpCount(pblock->vtx[0]);

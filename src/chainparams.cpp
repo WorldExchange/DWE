@@ -113,13 +113,13 @@ public:
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // DWE: 1 day
-        nTargetSpacing = 1 * 60;  // DWE: 1 minute
+        nTargetSpacing = 1 * 15;  // DWE: 1 minute
         nMaturity = 5;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 60;
+        nLastPOWBlock = 200;
         nModifierUpdateBlock = 615800;
         nZerocoinStartHeight = 600;
         nZerocoinStartTime = 1541084400; // Nov 1, 2018 15:00:00 GMT
