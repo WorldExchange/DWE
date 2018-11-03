@@ -116,7 +116,7 @@ public:
         nTargetSpacing = 1 * 30;  // DWE: 1 minute
         nMaturity = 20;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 900000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 300;
@@ -169,7 +169,16 @@ public:
         assert(hashGenesisBlock == uint256("0x000009feb354eae6f0b66e4b453ba7cbc25235b41154765059addc2d8af79b0b"));
         assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
-        vSeeds.push_back(CDNSSeedData("45.32.119.203", "45.32.119.203"));
+        vSeeds.push_back(CDNSSeedData("34.230.0.77", "34.230.0.77"));
+        vSeeds.push_back(CDNSSeedData("18.212.49.49", "18.212.49.49"));
+        vSeeds.push_back(CDNSSeedData("35.175.214.120", "35.175.214.120"));
+        vSeeds.push_back(CDNSSeedData("18.232.68.107", "18.232.68.107"));
+        vSeeds.push_back(CDNSSeedData("54.208.84.52", "54.208.84.52"));
+        vSeeds.push_back(CDNSSeedData("52.23.214.240", "52.23.214.240"));
+        vSeeds.push_back(CDNSSeedData("34.207.141.157", "34.207.141.157"));
+        vSeeds.push_back(CDNSSeedData("35.168.18.107", "35.168.18.107"));
+        vSeeds.push_back(CDNSSeedData("34.238.165.75", "34.238.165.75"));
+        vSeeds.push_back(CDNSSeedData("35.175.229.14", "35.175.229.14"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
