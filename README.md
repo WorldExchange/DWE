@@ -25,13 +25,10 @@ More information at [digitalworldexchange.com](http://www.digitalworldexchange.c
 ### Reward Distribution
 
 <table>
-<th colspan=4>PoW Phase</th>
-<tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
-<tr><td>1</td><td>50,000,000 DWE</td><td>Initial Premine</td><td>0 Days</td></tr>
-<tr><td>2-151200</td><td>250 DWE</td><td rowspan=2>Open Mining</td><td rowspan=2> Approx 180 Days</td></tr>
+<tr><th>Block Height</th><th>Reward Amount</th></tr>
+<tr><td>1</td><td>50,000,000 DWE</td></tr>
+<tr><td>2-151200</td><td>250 DWE</td></tr>
 <tr><td>151201-259200</td><td>50 DWE</td></tr>
-<tr><th colspan=4>PoS Phase</th></tr>
-<tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
 <tr><td>259201-Infinite</td><td colspan=3>Variable based on SeeSaw Reward Mechanism</td></tr>
 </table>
 
