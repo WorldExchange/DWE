@@ -21,9 +21,11 @@ if [ -e "$(which git 2>/dev/null)" -a "$(git rev-parse --is-inside-work-tree 2>/
     git diff >/dev/null 2>/dev/null 
 
     # if latest commit is tagged and not dirty, then override using the tag name
-    DESC=$(git describe 2>/dev/null)
-    RAWDESC=$(git describe --abbrev=0 2>/dev/null)
-    git diff-index --quiet HEAD -- || DESC="$DESC-dirty"
+    # These are commented in order to manually set the version
+    # DESC=$(git describe 2>/dev/null)
+    # RAWDESC=$(git describe --abbrev=0 2>/dev/null)
+    # git diff-index --quiet HEAD -- || DESC="$DESC-dirty"
+    DESC="v3.0.7"
 
     # get a string like "2012-04-10 16:27:19 +0200"
     LAST_COMMIT_DATE="$(git log -n 1 --format="%ci")"
