@@ -46,7 +46,7 @@ color:#333;
 }
 
 QToolBar {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #0c203c, stop: 1 #2380ff);
 border:0px solid #000;
 padding:0;
 margin:0;
@@ -62,8 +62,7 @@ color:#fff;
 }
 
 QToolBar > QToolButton:checked {
-background-color:#fff;
-color:#333;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #13b3a5, stop: 1 #4ebc88);
 font-weight:bold;
 }
 
