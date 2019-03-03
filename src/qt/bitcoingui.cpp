@@ -267,6 +267,8 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     connect(timerStakingIcon, SIGNAL(timeout()), this, SLOT(setStakingStatus()));
     timerStakingIcon->start(10000);
     setStakingStatus();
+
+//    this->setFixedSize(500,500);
 }
 
 BitcoinGUI::~BitcoinGUI()
