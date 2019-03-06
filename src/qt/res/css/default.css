@@ -867,7 +867,13 @@ padding-right:5px;
 /**************************** OVERVIEW SCREEN *******************************************/
 
 QWidget .QFrame#frame { /* Wallet Balance */
+margin-left: 24px;
 min-width:490px;
+}
+
+QWidget .QFrame#frameObfuscation { /* Wallet Balance */
+    margin-left: 48px;
+    min-width:490px;
 }
 
 QWidget .QFrame#frame > .QLabel {
@@ -1209,7 +1215,6 @@ margin-left:0px;
 QWidget .QFrame#frame_2 { /* Transactions Widget */
 min-width:410px;
 min-height:100px;
-margin-right:20px;
 margin-left:0;
 margin-top:0;
 background-image: url(':/images/dwe_logo_horizontal');
