@@ -1530,7 +1530,19 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
            </layout>
           </item>
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <layout class="QHBoxLayout" name="ltTxHeader">
+            <property name="leftMargin">
+             <number>20</number>
+            </property>
+            <property name="topMargin">
+             <number>20</number>
+            </property>
+            <property name="rightMargin">
+             <number>20</number>
+            </property>
+            <property name="bottomMargin">
+             <number>20</number>
+            </property>
             <item>
              <widget class="QLabel" name="lblTxDesc">
               <property name="text">
