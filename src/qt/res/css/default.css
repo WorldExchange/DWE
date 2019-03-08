@@ -1384,18 +1384,21 @@ min-height:27px;
 /**************************** SEND COINS ENTRY ******************************************/
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
+background:none;
 min-width:102px;
 font-weight:bold;
 font-size:11px;
-color:#ffffff;
+text-align: left;
+color:#333;
 min-height:25px;
 margin-right:5px;
 padding-right:5px;
 }
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
+background:none;
+color: #333;
+text-align: right;
 }
 
 QStackedWidget#SendCoinsEntry .QValidatedLineEdit#payTo { /* Pay To Input Field */
