@@ -1530,6 +1530,24 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
            </layout>
           </item>
           <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="lblTxDesc">
+              <property name="text">
+               <string>Description</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="lblTxAmt">
+              <property name="text">
+               <string>Amount</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
            <widget class="QListView" name="listTransactions">
             <property name="styleSheet">
              <string notr="true">QListView { background: transparent; }</string>
