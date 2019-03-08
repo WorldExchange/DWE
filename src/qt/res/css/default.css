@@ -1254,8 +1254,8 @@ min-height:16px;
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
 font-weight:normal;
 font-size:12px;
-margin-top:12px;
 margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons */
+border: none;
 }
 
 QWidget .QFrame#frame_2 .QFrame#frmTxAmt { /* Transaction List Amount Header */

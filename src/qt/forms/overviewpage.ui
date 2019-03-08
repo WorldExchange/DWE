@@ -1446,6 +1446,9 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
      </item>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0">
+       <property name="spacing">
+        <number>0</number>
+       </property>
        <item>
         <widget class="QFrame" name="frame_2">
          <property name="frameShape">
@@ -1455,6 +1458,9 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
           <enum>QFrame::Raised</enum>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
           <property name="leftMargin">
            <number>0</number>
           </property>
@@ -1598,7 +1604,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
           <item>
            <widget class="QListView" name="listTransactions">
             <property name="styleSheet">
-             <string notr="true">QListView { background: transparent; }</string>
+             <string notr="true"/>
             </property>
             <property name="frameShape">
              <enum>QFrame::Box</enum>
@@ -1614,6 +1620,9 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
             </property>
             <property name="horizontalScrollBarPolicy">
              <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="autoScrollMargin">
+             <number>0</number>
             </property>
             <property name="selectionMode">
              <enum>QAbstractItemView::NoSelection</enum>
