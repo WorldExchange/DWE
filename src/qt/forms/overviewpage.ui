@@ -1540,6 +1540,9 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
             <property name="frameShadow">
              <enum>QFrame::Sunken</enum>
             </property>
+            <property name="lineWidth">
+             <number>1</number>
+            </property>
             <property name="verticalScrollBarPolicy">
              <enum>Qt::ScrollBarAsNeeded</enum>
             </property>
