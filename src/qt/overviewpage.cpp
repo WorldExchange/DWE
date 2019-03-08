@@ -25,7 +25,7 @@
 #include <QTimer>
 
 #define DECORATION_SIZE 48
-#define ICON_OFFSET 16
+#define ICON_OFFSET 12
 #define NUM_ITEMS 100
 
 extern CWallet* pwalletMain;
@@ -49,7 +49,8 @@ public:
         int xspace = DECORATION_SIZE + 8;
         int ypad = 6;
         int halfheight = (mainRect.height() - 2 * ypad) / 2;
-        QRect amountRect(mainRect.left() + xspace, mainRect.top() + ypad, mainRect.width() - xspace - ICON_OFFSET, halfheight);
+        QRect amountRect(mainRect.left() + mainRect.width() * 2 / 3 + 12, mainRect.top() + ypad, mainRect.width() / 3 - 12, halfheight);
+        QRect dateRect(mainRect.left() + xspace, mainRect.top() + ypad, mainRect.width() * 2 / 3 + 12 - xspace, halfheight);
         QRect addressRect(mainRect.left() + xspace, mainRect.top() + ypad + halfheight, mainRect.width() - xspace, halfheight);
         icon.paint(painter, decorationRect);
 
@@ -75,21 +76,26 @@ public:
         }
 
         if (amount < 0) {
-            foreground = COLOR_NEGATIVE;
+            foreground = QColor(234, 16, 17);
         } else if (!confirmed) {
             foreground = COLOR_UNCONFIRMED;
         } else {
-            foreground = COLOR_BLACK;
+            foreground = QColor(59, 80, 199);
         }
         painter->setPen(foreground);
         QString amountText = BitcoinUnits::formatWithUnit(unit, amount, true, BitcoinUnits::separatorAlways);
         if (!confirmed) {
             amountText = QString("[") + amountText + QString("]");
         }
-        painter->drawText(amountRect, Qt::AlignRight | Qt::AlignVCenter, amountText);
+
+        QFont font=painter->font();
+        font.setWeight(QFont::DemiBold);
+        painter->setFont(font);
+
+        painter->drawText(amountRect, Qt::AlignLeft | Qt::AlignVCenter, amountText);
 
         painter->setPen(COLOR_BLACK);
-        painter->drawText(amountRect, Qt::AlignLeft | Qt::AlignVCenter, GUIUtil::dateTimeStr(date));
+        painter->drawText(dateRect, Qt::AlignLeft | Qt::AlignVCenter, GUIUtil::dateTimeStr(date));
 
         painter->restore();
     }
@@ -261,7 +267,7 @@ void OverviewPage::updateWatchOnlyLabels(bool showWatchOnly)
 {
     ui->labelSpendable->setVisible(showWatchOnly);      // show spendable label (only when watch-only is active)
     ui->labelWatchonly->setVisible(showWatchOnly);      // show watch-only label
-    ui->lineWatchBalance->setVisible(showWatchOnly);    // show watch-only balance separator line
+//    ui->lineWatchBalance->setVisible(showWatchOnly);    // show watch-only balance separator line
     ui->labelWatchAvailable->setVisible(showWatchOnly); // show watch-only available balance
     ui->labelWatchPending->setVisible(showWatchOnly);   // show watch-only pending balance
     ui->labelWatchTotal->setVisible(showWatchOnly);     // show watch-only total balance
