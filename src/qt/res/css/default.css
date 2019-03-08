@@ -1258,6 +1258,18 @@ margin-top:12px;
 margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons */
 }
 
+QWidget .QFrame#frame_2 .QFrame#frmTxAmt { /* Transaction List Amount Header */
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    background-color: #f7f7f7;
+}
+
+QWidget .QFrame#frame_2 .QFrame#frmTxDesc { /* Transaction List Description Header */
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    background-color: #f7f7f7;
+}
+
 /**************************** SEND DIALOG ***********************************************/
 
 QDialog#SendCoinsDialog {

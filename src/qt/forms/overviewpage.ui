@@ -1530,31 +1530,67 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
            </layout>
           </item>
           <item>
-           <layout class="QHBoxLayout" name="ltTxHeader">
+           <layout class="QHBoxLayout" name="ltTxHeader" stretch="2,1">
+            <property name="spacing">
+             <number>0</number>
+            </property>
             <property name="leftMargin">
-             <number>20</number>
+             <number>0</number>
             </property>
             <property name="topMargin">
-             <number>20</number>
+             <number>0</number>
             </property>
             <property name="rightMargin">
-             <number>20</number>
+             <number>0</number>
             </property>
             <property name="bottomMargin">
-             <number>20</number>
+             <number>0</number>
             </property>
             <item>
-             <widget class="QLabel" name="lblTxDesc">
-              <property name="text">
-               <string>Description</string>
+             <widget class="QFrame" name="frmTxDesc">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
               </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <item>
+                <widget class="QLabel" name="lblTxDesc">
+                 <property name="text">
+                  <string>Description</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="lblTxAmt">
-              <property name="text">
-               <string>Amount</string>
+             <widget class="QFrame" name="frmTxAmt">
+              <property name="enabled">
+               <bool>true</bool>
               </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QLabel" name="lblTxAmt">
+                 <property name="text">
+                  <string>Amount</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
              </widget>
             </item>
            </layout>
