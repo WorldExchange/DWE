@@ -1732,6 +1732,13 @@ QLabel#transactionSum { /* Example of setObjectName for widgets without name */
 color:#333333;
 }
 
+QPushButton#exportButton {
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #47c3b5, stop: 0.49 #47c3b5, stop: 0.51 #19b4a2, stop: 1 #19b4a2);
+}
+
 /**************************** TRANSACTION DETAILS DIALOG ********************************/
 
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
