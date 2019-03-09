@@ -125,15 +125,12 @@ color:#333;
 
 QLabel { /* Base Text Size & Color */
 font-size:12px;
-color:#1f4f9e;
 }
 
 .QRadioButton { /* Radio Button Labels */
-color:#1f4f9e;
 }
 
 .QCheckBox { /* Checkbox Labels */
-color:#1f4f9e;
 background-color:transparent;
 }
 
@@ -328,10 +325,12 @@ border:1px solid #333;
 QTableView::item { /* Table Item */
 background-color:#fcfcfc;
 font-size:12px;
+padding-top: 8px;
+padding-bottom: 8px;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#3e2bce;
+background-color:#237ffe;
 color:#fff;
 }
 
@@ -1563,7 +1562,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
+background-color:#237ffe;
 color:#fff;
 }
 
@@ -1603,27 +1602,21 @@ background-color:#fff;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
 min-width:102px;
-color:#ffffff;
 font-weight:bold;
 font-size:11px;
 padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
 min-width:102px;
-color:#ffffff;
 font-weight:bold;
 font-size:11px;
 padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
 min-width:102px;
-color:#ffffff;
 font-weight:bold;
 font-size:11px;
 padding-right:5px;
@@ -1684,6 +1677,8 @@ QWidget#ReceiveCoinsDialog .QFrame#frame .QLabel#label_6 { /* Requested Payments
 color:#382f44;
 font-weight:bold;
 font-size:14px;
+padding: 10px 0;
+border-top: 1px solid #eee;
 }
 
 /**************************** RECEIVE COINS DIALOG **************************************/
