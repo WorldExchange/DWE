@@ -301,6 +301,9 @@
         <property name="sortingEnabled">
          <bool>false</bool>
         </property>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>50</number>
+        </attribute>
        </widget>
       </item>
       <item>
@@ -314,7 +317,7 @@
            <string>Show the selected request (does the same as double clicking an entry)</string>
           </property>
           <property name="text">
-           <string>Show</string>
+           <string>View Selected</string>
           </property>
           <property name="icon">
            <iconset resource="../dwe.qrc">
@@ -334,7 +337,7 @@
            <string>Remove the selected entries from the list</string>
           </property>
           <property name="text">
-           <string>Remove</string>
+           <string>Remove Selected</string>
           </property>
           <property name="icon">
            <iconset resource="../dwe.qrc">
