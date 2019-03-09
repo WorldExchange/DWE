@@ -14,6 +14,12 @@
    <string>Send Coins</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0,0">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
    <property name="bottomMargin">
     <number>8</number>
    </property>
@@ -42,13 +48,13 @@
        <number>0</number>
       </property>
       <property name="leftMargin">
-       <number>0</number>
+       <number>12</number>
       </property>
       <property name="topMargin">
        <number>0</number>
       </property>
       <property name="rightMargin">
-       <number>0</number>
+       <number>12</number>
       </property>
       <property name="bottomMargin">
        <number>6</number>
@@ -59,7 +65,7 @@
          <number>0</number>
         </property>
         <property name="leftMargin">
-         <number>10</number>
+         <number>0</number>
         </property>
         <property name="topMargin">
          <number>10</number>
@@ -650,8 +656,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>830</width>
-        <height>113</height>
+        <width>848</width>
+        <height>74</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">
@@ -733,13 +739,19 @@
          <number>0</number>
         </property>
         <property name="leftMargin">
-         <number>10</number>
+         <number>0</number>
         </property>
         <property name="topMargin">
          <number>0</number>
         </property>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayoutFee1">
+          <property name="leftMargin">
+           <number>12</number>
+          </property>
+          <property name="rightMargin">
+           <number>12</number>
+          </property>
           <property name="bottomMargin">
            <number>0</number>
           </property>
@@ -801,7 +813,7 @@
               <item>
                <widget class="QPushButton" name="buttonChooseFee">
                 <property name="text">
-                 <string>Choose...</string>
+                 <string>Advanced Option</string>
                 </property>
                </widget>
               </item>
@@ -811,7 +823,7 @@
                  <string>collapse fee-settings</string>
                 </property>
                 <property name="text">
-                 <string>Minimize</string>
+                 <string>Minimize Option</string>
                 </property>
                </widget>
               </item>
@@ -867,8 +879,14 @@
            </property>
            <item>
             <layout class="QGridLayout" name="gridLayoutFee">
+             <property name="leftMargin">
+              <number>12</number>
+             </property>
              <property name="topMargin">
               <number>10</number>
+             </property>
+             <property name="rightMargin">
+              <number>12</number>
              </property>
              <property name="bottomMargin">
               <number>4</number>
@@ -1229,6 +1247,12 @@
              <property name="spacing">
               <number>8</number>
              </property>
+             <property name="leftMargin">
+              <number>12</number>
+             </property>
+             <property name="rightMargin">
+              <number>12</number>
+             </property>
              <property name="bottomMargin">
               <number>4</number>
              </property>
@@ -1300,6 +1324,12 @@
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="leftMargin">
+      <number>12</number>
+     </property>
+     <property name="rightMargin">
+      <number>12</number>
+     </property>
      <item>
       <widget class="QPushButton" name="sendButton">
        <property name="minimumSize">
@@ -1444,15 +1474,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QValidatedLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>qvalidatedlineedit.h</header>
-  </customwidget>
-  <customwidget>
    <class>BitcoinAmountField</class>
    <extends>QLineEdit</extends>
    <header>bitcoinamountfield.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QValidatedLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources>
@@ -1460,7 +1490,7 @@
  </resources>
  <connections/>
  <buttongroups>
-  <buttongroup name="groupFee"/>
   <buttongroup name="groupCustomFee"/>
+  <buttongroup name="groupFee"/>
  </buttongroups>
 </ui>

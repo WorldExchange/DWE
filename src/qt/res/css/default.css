@@ -142,10 +142,9 @@ background-color:transparent;
 }
 
 .QValidatedLineEdit, .QLineEdit { /* Text Entry Fields */
-border: 1px solid #3e2bce;
+border: 1px solid #ddd;
 font-size:11px;
 min-height:25px;
-outline:0;
 padding:3px;
 background-color:#fcfcfc;
 color:#333333;
@@ -188,7 +187,7 @@ border:1px solid #333;
 }
 
 QComboBox { /* Dropdown Menus */
-border:1px solid #3e2bce;
+border:1px solid #ddd;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
@@ -247,7 +246,7 @@ selection-color:transparent;
 }
 
 QAbstractSpinBox {
-border:1px solid #3e2bce;
+border:1px solid #ddd;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
@@ -260,8 +259,8 @@ subcontrol-position: top right;
 width:21px;
 background:#fcfcfc;
 border-left:0px;
-border-right:1px solid #3e2bce;
-border-top:1px solid #3e2bce;
+border-right:1px solid #ddd;
+border-top:1px solid #ddd;
 border-bottom:0px;
 padding-right:1px;
 padding-left:5px;
@@ -279,8 +278,8 @@ width:21px;
 background:#fcfcfc;
 border-top:0px;
 border-left:0px;
-border-right:1px solid #3e2bce;
-border-bottom:1px solid #3e2bce;
+border-right:1px solid #ddd;
+border-bottom:1px solid #ddd;
 padding-right:1px;
 padding-left:5px;
 padding-bottom:2px;
@@ -437,22 +436,38 @@ QScrollBar:right-arrow {
 background-image: url(':/images/rightArrow_small');
 }
 
+/*QDialog#SendCoinsDialog .QFrame#frameFee .QFrame#frameFeeSelection .QSlider#sliderSmartFee {*/
+    /*height: 15px;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+QSlider::groove:horizontal {
+    background-color: black;
+    border: 0px solid #424242;
+    height: 30px;
+    border-radius: 4px;
+}
+
 QSlider::handle:horizontal {
-background-color:#f2f2f2;
-border:1px solid #c2c2c2;
-border-radius:10px;
+background-color:#aaa;
+width: 16px;
+height: 16px;
+border:1px solid #fff;
+border-radius:8px;
 }
 
 QSlider::sub-page:horizontal {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #0c203c, stop: 1 #2380ff);
 border-color:#c2c2c2;
-border-radius:3px;
+height: 30px;
+border-radius:5px;
 }
 
 QSlider::add-page:horizontal {
 background-color:#dedede;
 border:1px solid #c2c2c2;
-border-radius:3px;
+height: 20px;
+border-radius:5px;
 }
 
 /**************************** DIALOG BOXES **********************************************/
@@ -1287,6 +1302,20 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlChangeL
 font-weight:normal;
 qproperty-margin:-6;
 margin-right:112px;
+}
+
+QDialog#SendCoinsDialog .QFrame#frameFee .QPushButton#buttonChooseFee,
+QDialog#SendCoinsDialog .QFrame#frameFee .QPushButton#buttonMinimizeFee {
+    border: 1px solid #777;
+    color: #777;
+    height: 25px;
+    border-radius: 18px;
+    background: none;
+}
+
+QDialog#SendCoinsDialog .QFrame#frameFee .QFrame#frameFeeSelection {
+    border-top: 1px solid #ccc;
+    background-color: #eee;
 }
 
 QDialog#SendCoinsDialog .QScrollArea#scrollArea .QWidget#scrollAreaWidgetContents { /* Send To Widget */
