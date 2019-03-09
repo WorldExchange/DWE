@@ -1675,8 +1675,38 @@ border-top: 1px solid #eee;
 
 /**************************** RECEIVE COINS DIALOG **************************************/
 
-QDialog#ReceiveRequestDialog QTextEdit { /* Contents of Receive Coin Dialog */
+QDialog#ReceiveRequestDialog { /* Contents of Receive Coin Dialog */
+    background-color: #e3e3e3;
+}
+
+QDialog#ReceiveRequestDialog QTextEdit {
 border:1px solid #d7d7d7;
+}
+
+QDialog#ReceiveRequestDialog QPushButton { /* Buttons of Receive Coin Dialog */
+    height: 20px;
+    border-radius: 15px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+
+QDialog#ReceiveRequestDialog QFrame#frame { /* Contents of Receive Coin Dialog */
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+}
+
+QDialog#ReceiveRequestDialog QFrame#frmLabel { /* Contents of Receive Coin Dialog */
+    background-color: #555;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QDialog#ReceiveRequestDialog QPushButton#btnCopyURI { /* Contents of Receive Coin Dialog */
+    border: 1px solid #3b50c7;
+}
+
+QDialog#ReceiveRequestDialog QLabel#lblTitle { /* Contents of Receive Coin Dialog */
+    color: #fff;
 }
 
 /**************************** TRANSACTIONS PAGE *****************************************/
