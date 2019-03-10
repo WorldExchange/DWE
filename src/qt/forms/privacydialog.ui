@@ -43,7 +43,7 @@
      <item>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0">
        <item>
-        <widget class="QFrame" name="frame_3">
+        <widget class="QFrame" name="frmZdweLabel">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>

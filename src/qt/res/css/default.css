@@ -705,9 +705,12 @@ border:0px solid #000;
 }
 
 QWidget#PrivacyDialog QLabel#zDWELabel {
-font-size:14px;
-color:#ffffff;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
+font-size:16px;
+}
+
+QWidget#PrivacyDialog QFrame#frmZdweLabel {
+    background-color: #e3e3e3;
+    border: none;
 }
 
 QWidget#PrivacyDialog QLabel#oDWELabel {
