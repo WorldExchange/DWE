@@ -749,20 +749,25 @@ background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, st
 }
 
 QWidget#PrivacyDialog QPushButton {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #3e2bce, stop: 1 #2dd3aa);
 border:0;
-border-radius:3px;
-color:#ffffff;
 font-size:12px;
 font-weight:normal;
+height: 25px;
+border-radius: 17px;
+width: 130px;
+border: 1px solid #ddd;
 padding-left:5px;
 padding-right:5px;
 padding-top:5px;
 padding-bottom:5px;
 }
 
-QWidget#PrivacyDialog QPushButton:hover {
-background-color:#3e2bce;
+QWidget#PrivacyDialog QPushButton#pushButtonMintzDWE,
+QWidget#PrivacyDialog QPushButton#pushButtonCoinControl,
+QWidget#PrivacyDialog QPushButton#pushButtonZDweControl,
+QWidget#PrivacyDialog QPushButton#pushButtonSpendzDWE {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #47c3b5, stop: 0.49 #47c3b5, stop: 0.51 #19b4a2, stop: 1 #19b4a2);background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #47c3b5, stop: 0.49 #47c3b5, stop: 0.51 #19b4a2, stop: 1 #19b4a2);
+    color: #fff;
 }
 
 QWidget#PrivacyDialog QPushButton:focus {
