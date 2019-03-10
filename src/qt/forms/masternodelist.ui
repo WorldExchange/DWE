@@ -15,16 +15,16 @@
   </property>
   <layout class="QVBoxLayout" name="topLayout">
    <property name="leftMargin">
-    <number>24</number>
+    <number>0</number>
    </property>
    <property name="topMargin">
-    <number>24</number>
+    <number>0</number>
    </property>
    <property name="rightMargin">
-    <number>24</number>
+    <number>0</number>
    </property>
    <property name="bottomMargin">
-    <number>24</number>
+    <number>0</number>
    </property>
    <item>
     <layout class="QGridLayout" name="gridLayout_2">
@@ -35,6 +35,15 @@
        </property>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_note">
+         <property name="leftMargin">
+          <number>24</number>
+         </property>
+         <property name="topMargin">
+          <number>24</number>
+         </property>
+         <property name="rightMargin">
+          <number>24</number>
+         </property>
          <property name="bottomMargin">
           <number>50</number>
          </property>
@@ -56,6 +65,18 @@
           <enum>QFrame::Raised</enum>
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="leftMargin">
+           <number>36</number>
+          </property>
+          <property name="topMargin">
+           <number>36</number>
+          </property>
+          <property name="rightMargin">
+           <number>36</number>
+          </property>
+          <property name="bottomMargin">
+           <number>36</number>
+          </property>
           <item>
            <widget class="QTableWidget" name="tableWidgetMyMasternodes">
             <property name="minimumSize">
@@ -169,66 +190,97 @@
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_5">
-         <property name="bottomMargin">
-          <number>0</number>
+        <widget class="QFrame" name="frame_2_1">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
          </property>
-         <item>
-          <widget class="QPushButton" name="startButton">
-           <property name="text">
-            <string>S&amp;tart alias</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="startAllButton">
-           <property name="text">
-            <string>Start &amp;all</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="startMissingButton">
-           <property name="text">
-            <string>Start &amp;MISSING</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="UpdateButton">
-           <property name="text">
-            <string>&amp;Update status</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="autoupdate_label">
-           <property name="text">
-            <string>Status will be updated automatically in (sec):</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QLabel" name="secondsLabel">
-           <property name="text">
-            <string>0</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="horizontalSpacer_5">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-        </layout>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <property name="rightMargin">
+           <number>20</number>
+          </property>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="startButton">
+              <property name="text">
+               <string>S&amp;tart alias</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="startAllButton">
+              <property name="text">
+               <string>Start &amp;all</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="startMissingButton">
+              <property name="text">
+               <string>Start &amp;MISSING</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="UpdateButton">
+              <property name="text">
+               <string>&amp;Update status</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="autoupdate_label">
+              <property name="text">
+               <string>Status will be updated automatically in (sec):</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="secondsLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
        </item>
       </layout>
      </item>
