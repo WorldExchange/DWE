@@ -686,6 +686,10 @@ min-width:260px;
 
 /**************************** Privacy Dialog ********************************************/
 
+QWidget#PrivacyDialog {
+    background-color:#fff;
+}
+
 QWidget#PrivacyDialog QFrame {
 background-color:transparent;
 border:1px solid #000;
@@ -711,6 +715,23 @@ font-size:16px;
 QWidget#PrivacyDialog QFrame#frmZdweLabel {
     background-color: #e3e3e3;
     border: none;
+}
+
+QWidget#PrivacyDialog QFrame#frmZerocoinActions,
+QWidget#PrivacyDialog QFrame#frmZerocoinStats {
+    background-color: #f7f7f7;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+QWidget#PrivacyDialog QFrame#frame,
+QWidget#PrivacyDialog QFrame#frame_2_2,
+QWidget#PrivacyDialog QFrame#frame_2_3 {
+    border: none;
+}
+
+QWidget#PrivacyDialog QFrame#frmZerocoinStats {
+    border-left: 1px solid #ddd;
 }
 
 QWidget#PrivacyDialog QLabel#oDWELabel {
