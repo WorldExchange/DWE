@@ -712,7 +712,15 @@ QWidget#PrivacyDialog QLabel#zDWELabel {
 font-size:16px;
 }
 
-QWidget#PrivacyDialog QFrame#frmZdweLabel {
+QWidget#PrivacyDialog QPlainTextEdit#TEMintStatus {
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 12px;
+}
+
+QWidget#PrivacyDialog QFrame#frmZdweLabel,
+QWidget#PrivacyDialog QFrame#frmMintStatus {
     background-color: #e3e3e3;
     border: none;
 }
