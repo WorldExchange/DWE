@@ -211,6 +211,12 @@
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QPushButton" name="pushButtonMintzDWE">
                <property name="minimumSize">
@@ -309,6 +315,12 @@
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QPushButton" name="pushButtonCoinControl">
                <property name="minimumSize">
@@ -543,7 +555,10 @@
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_24">
              <property name="leftMargin">
-              <number>0</number>
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
              </property>
              <property name="bottomMargin">
               <number>0</number>
@@ -616,6 +631,12 @@
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QPushButton" name="pushButtonSpendzDWE">
                <property name="minimumSize">
@@ -734,6 +755,12 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="payToLabel">
                <property name="minimumSize">
@@ -746,7 +773,7 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                 <string>Pay &amp;To:</string>
                </property>
                <property name="alignment">
-                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
                </property>
                <property name="buddy">
                 <cstring>payTo</cstring>
@@ -814,6 +841,12 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelLabel">
                <property name="minimumSize">
@@ -826,7 +859,7 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                 <string>&amp;Label:</string>
                </property>
                <property name="alignment">
-                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
                </property>
                <property name="buddy">
                 <cstring>addAsLabel</cstring>
@@ -844,6 +877,15 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="amountLabel">
                <property name="minimumSize">
@@ -856,7 +898,7 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                 <string>A&amp;mount:</string>
                </property>
                <property name="alignment">
-                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
                </property>
                <property name="buddy">
                 <cstring>zDWEpayAmount</cstring>
@@ -883,19 +925,12 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_10">
-             <item>
-              <spacer name="horizontalSpacer_5">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QCheckBox" name="checkBoxMintChange">
                <property name="sizePolicy">
@@ -965,6 +1000,12 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
          </property>
          <item>
           <layout class="QVBoxLayout" name="verticalLayout_7">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
            <item>
             <widget class="QFrame" name="frmZerocoinStats">
              <property name="frameShape">
@@ -1028,6 +1069,12 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_12">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzAvailableText">
                <property name="font">
@@ -1089,6 +1136,12 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom1Text">
                <property name="toolTip">
@@ -1142,6 +1195,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom2Text">
                <property name="toolTip">
@@ -1195,6 +1254,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom3Text">
                <property name="toolTip">
@@ -1248,6 +1313,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_16">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom4Text">
                <property name="toolTip">
@@ -1301,6 +1372,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_17">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom5Text">
                <property name="toolTip">
@@ -1354,6 +1431,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_18">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom6Text">
                <property name="toolTip">
@@ -1407,6 +1490,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_19">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom7Text">
                <property name="toolTip">
@@ -1460,6 +1549,12 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
            </item>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_20">
+             <property name="leftMargin">
+              <number>24</number>
+             </property>
+             <property name="rightMargin">
+              <number>24</number>
+             </property>
              <item>
               <widget class="QLabel" name="labelzDenom8Text">
                <property name="toolTip">

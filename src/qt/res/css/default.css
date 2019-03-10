@@ -730,7 +730,7 @@ QWidget#PrivacyDialog QFrame#frame_2_3 {
     border: none;
 }
 
-QWidget#PrivacyDialog QFrame#frmZerocoinStats {
+QWidget#PrivacyDialog QFrame#frame_2_2 {
     border-left: 1px solid #ddd;
 }
 
