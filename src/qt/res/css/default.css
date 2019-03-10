@@ -1805,3 +1805,34 @@ color:#1f4f9e;
 QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
 color:#818181;
 }
+
+
+/********************************* Masternode page **************************************/
+
+QWidget#MasternodeList QFrame#frame {
+    border: none;
+}
+
+QWidget#MasternodeList QTableWidget#tableWidgetMyMasternodes {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+QWidget#MasternodeList QTableWidget#tableWidgetMyMasternodes QHeaderView::section {
+    color: #fff;
+    background-color: #555;
+    border: none;
+    border-right: 1px solid #ddd;
+    margin-top: 1px;
+}
+
+QWidget#MasternodeList QTableWidget#tableWidgetMyMasternodes QHeaderView::section:first {
+    margin-left: 1px;
+    border-top-left-radius: 4px;
+}
+
+QWidget#MasternodeList QTableWidget#tableWidgetMyMasternodes QHeaderView::section:last {
+    margin-right: 1px;
+    border: none;
+    border-top-right-radius: 4px;
+}
