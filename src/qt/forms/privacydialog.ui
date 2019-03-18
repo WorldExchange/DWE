@@ -244,6 +244,9 @@
                  <height>0</height>
                 </size>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
+               </property>
                <property name="text">
                 <string>0</string>
                </property>
@@ -915,8 +918,8 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../dwe.qrc">
-                   <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
+                  <iconset>
+                   <normaloff>../res/icons/address-book.png</normaloff>../res/icons/address-book.png</iconset>
                  </property>
                  <property name="shortcut">
                   <string>Alt+A</string>
@@ -932,8 +935,8 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                   <string/>
                  </property>
                  <property name="icon">
-                  <iconset resource="../dwe.qrc">
-                   <normaloff>:/icons/editpaste</normaloff>:/icons/editpaste</iconset>
+                  <iconset>
+                   <normaloff>../res/icons/editpaste.png</normaloff>../res/icons/editpaste.png</iconset>
                  </property>
                  <property name="shortcut">
                   <string>Alt+P</string>

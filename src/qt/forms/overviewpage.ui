@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>643</height>
+    <height>802</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -54,7 +54,7 @@
       <number>0</number>
      </property>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0">
        <property name="topMargin">
         <number>32</number>
        </property>
@@ -416,6 +416,29 @@
         </spacer>
        </item>
        <item>
+        <widget class="Line" name="line">
+         <property name="styleSheet">
+          <string notr="true">border-top: 1px solid #ddd;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
         <widget class="QFrame" name="frame_5">
          <property name="enabled">
           <bool>true</bool>
@@ -680,6 +703,29 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
        </item>
        <item>
         <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="Line" name="line_2">
+         <property name="styleSheet">
+          <string notr="true">border-top: 1px solid #ddd;</string>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -990,6 +1036,9 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
        </property>
        <item>
         <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -1026,62 +1075,89 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
            </spacer>
           </item>
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_2">
-            <property name="leftMargin">
-             <number>28</number>
+           <widget class="QFrame" name="frame_3">
+            <property name="styleSheet">
+             <string notr="true">border-left: 1px solid #ddd;</string>
             </property>
-            <property name="topMargin">
-             <number>24</number>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
             </property>
-            <property name="bottomMargin">
-             <number>24</number>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
             </property>
-            <item>
-             <widget class="QLabel" name="label_4">
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="text">
-               <string>Recent transactions</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="labelTransactionsStatus">
-              <property name="cursor">
-               <cursorShape>WhatsThisCursor</cursorShape>
-              </property>
-              <property name="toolTip">
-               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</string>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">QLabel { color: red; }</string>
-              </property>
-              <property name="text">
-               <string notr="true">(out of sync)</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-           </layout>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <property name="leftMargin">
+                <number>28</number>
+               </property>
+               <property name="topMargin">
+                <number>24</number>
+               </property>
+               <property name="bottomMargin">
+                <number>24</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Recent transactions</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="labelTransactionsStatus">
+                 <property name="cursor">
+                  <cursorShape>WhatsThisCursor</cursorShape>
+                 </property>
+                 <property name="toolTip">
+                  <string>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</string>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QLabel { color: red; }</string>
+                 </property>
+                 <property name="text">
+                  <string notr="true">(out of sync)</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
           </item>
           <item>
            <layout class="QHBoxLayout" name="ltTxHeader" stretch="2,1">
@@ -1102,6 +1178,9 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
             </property>
             <item>
              <widget class="QFrame" name="frmTxDesc">
+              <property name="styleSheet">
+               <string notr="true">background-color: #eee; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;</string>
+              </property>
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -1109,8 +1188,20 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                <enum>QFrame::Plain</enum>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <property name="leftMargin">
+                <number>24</number>
+               </property>
+               <property name="topMargin">
+                <number>20</number>
+               </property>
+               <property name="bottomMargin">
+                <number>20</number>
+               </property>
                <item>
                 <widget class="QLabel" name="lblTxDesc">
+                 <property name="styleSheet">
+                  <string notr="true">border: none;</string>
+                 </property>
                  <property name="text">
                   <string>Description</string>
                  </property>
@@ -1130,6 +1221,9 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                 <verstretch>0</verstretch>
                </sizepolicy>
               </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: #eee; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;</string>
+              </property>
               <property name="frameShape">
                <enum>QFrame::StyledPanel</enum>
               </property>
@@ -1137,8 +1231,17 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                <enum>QFrame::Plain</enum>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <property name="topMargin">
+                <number>20</number>
+               </property>
+               <property name="bottomMargin">
+                <number>20</number>
+               </property>
                <item>
                 <widget class="QLabel" name="lblTxAmt">
+                 <property name="styleSheet">
+                  <string notr="true">border: none;</string>
+                 </property>
                  <property name="text">
                   <string>Amount</string>
                  </property>
@@ -1152,7 +1255,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
           <item>
            <widget class="QListView" name="listTransactions">
             <property name="styleSheet">
-             <string notr="true"/>
+             <string notr="true">border-left: 1px solid #ddd;</string>
             </property>
             <property name="frameShape">
              <enum>QFrame::Box</enum>

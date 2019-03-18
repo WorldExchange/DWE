@@ -1361,6 +1361,7 @@ background:transparent;
 }
 
 QDialog#SendCoinsDialog .QPushButton#sendButton { /* Send Button */
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #47c3b5, stop: 0.49 #47c3b5, stop: 0.51 #19b4a2, stop: 1 #19b4a2);background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #47c3b5, stop: 0.49 #47c3b5, stop: 0.51 #19b4a2, stop: 1 #19b4a2);
 padding-left:10px;
 padding-right:10px;
 }

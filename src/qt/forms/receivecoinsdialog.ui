@@ -182,10 +182,6 @@
             <property name="text">
              <string>&amp;Request payment</string>
             </property>
-            <property name="icon">
-             <iconset resource="../dwe.qrc">
-              <normaloff>:/icons/receiving_addresses</normaloff>:/icons/receiving_addresses</iconset>
-            </property>
            </widget>
           </item>
           <item>
@@ -200,11 +196,11 @@
              <string>Clear all fields of the form.</string>
             </property>
             <property name="text">
-             <string>Clear</string>
+             <string>Clear All</string>
             </property>
             <property name="icon">
-             <iconset resource="../dwe.qrc">
-              <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
+             <iconset>
+              <normaloff>../res/icons/btn_remove_left.png</normaloff>../res/icons/btn_remove_left.png</iconset>
             </property>
             <property name="autoDefault">
              <bool>false</bool>
@@ -356,8 +352,8 @@
            <string>View Selected</string>
           </property>
           <property name="icon">
-           <iconset resource="../dwe.qrc">
-            <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
+           <iconset>
+            <normaloff>../res/icons/btn_view_selected_left.png</normaloff>../res/icons/btn_view_selected_left.png</iconset>
           </property>
           <property name="autoDefault">
            <bool>false</bool>
@@ -376,8 +372,8 @@
            <string>Remove Selected</string>
           </property>
           <property name="icon">
-           <iconset resource="../dwe.qrc">
-            <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
+           <iconset>
+            <normaloff>../res/icons/btn_remove_left.png</normaloff>../res/icons/btn_remove_left.png</iconset>
           </property>
           <property name="autoDefault">
            <bool>false</bool>

@@ -178,6 +178,10 @@
        <property name="text">
         <string>Copy &amp;URI</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../res/icons/btn_copy_uri_left.png</normaloff>../res/icons/btn_copy_uri_left.png</iconset>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -188,6 +192,10 @@
        <property name="text">
         <string>Copy &amp;Address</string>
        </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../res/icons/btn_copy_address_left.png</normaloff>../res/icons/btn_copy_address_left.png</iconset>
+       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -196,7 +204,11 @@
      <item>
       <widget class="QPushButton" name="btnSaveAs">
        <property name="text">
-        <string>&amp;Save Image...</string>
+        <string>&amp;Save Images</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../res/icons/btn_save_images_left.png</normaloff>../res/icons/btn_save_images_left.png</iconset>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -217,9 +229,13 @@
       </spacer>
      </item>
      <item>
-      <widget class="QDialogButtonBox" name="buttonBox">
-       <property name="standardButtons">
-        <set>QDialogButtonBox::Close</set>
+      <widget class="QPushButton" name="buttonBox">
+       <property name="text">
+        <string>Close</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../res/icons/btn_remove_left.png</normaloff>../res/icons/btn_remove_left.png</iconset>
        </property>
       </widget>
      </item>
@@ -235,38 +251,5 @@
   </customwidget>
  </customwidgets>
  <resources/>
- <connections>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>rejected()</signal>
-   <receiver>ReceiveRequestDialog</receiver>
-   <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>452</x>
-     <y>573</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>243</x>
-     <y>298</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>accepted()</signal>
-   <receiver>ReceiveRequestDialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>452</x>
-     <y>573</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>243</x>
-     <y>298</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

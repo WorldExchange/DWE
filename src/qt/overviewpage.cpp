@@ -25,7 +25,7 @@
 #include <QTimer>
 
 #define DECORATION_SIZE 48
-#define ICON_OFFSET 12
+#define ICON_OFFSET 24
 #define NUM_ITEMS 100
 
 extern CWallet* pwalletMain;
@@ -47,7 +47,7 @@ public:
         mainRect.moveLeft(ICON_OFFSET);
         QRect decorationRect(mainRect.topLeft(), QSize(DECORATION_SIZE, DECORATION_SIZE));
         int xspace = DECORATION_SIZE + 8;
-        int ypad = 6;
+        int ypad = 12;
         int halfheight = (mainRect.height() - 2 * ypad) / 2;
         QRect amountRect(mainRect.left() + mainRect.width() * 2 / 3 + 12, mainRect.top() + ypad, mainRect.width() / 3 - 12, halfheight);
         QRect dateRect(mainRect.left() + xspace, mainRect.top() + ypad, mainRect.width() * 2 / 3 + 12 - xspace, halfheight);
