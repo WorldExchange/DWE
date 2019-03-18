@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>991</width>
-    <height>653</height>
+    <height>659</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -137,6 +137,9 @@
           <layout class="QVBoxLayout" name="verticalLayout_3">
            <item>
             <widget class="QFrame" name="frmZerocoinActions">
+             <property name="styleSheet">
+              <string notr="true">background-color: #f7f7f7</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -168,7 +171,7 @@
                    </font>
                   </property>
                   <property name="text">
-                   <string>Zerocoin Actions:</string>
+                   <string>&lt;span style=&quot;color: #999;&quot;&gt;Zerocoin Actions:&lt;/span&gt;</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -257,6 +260,9 @@
                  <bold>true</bold>
                 </font>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #999;</string>
+               </property>
                <property name="text">
                 <string>zDWE</string>
                </property>
@@ -285,6 +291,9 @@
               <widget class="QLabel" name="labelzDWEAmountValue">
                <property name="toolTip">
                 <string>Enter an amount of Dwe to convert to zDwe</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
                </property>
                <property name="text">
                 <string>0.000 000 00 DWE</string>
@@ -317,6 +326,9 @@
                </property>
                <property name="toolTip">
                 <string>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Reset</string>
@@ -452,6 +464,9 @@
                  <property name="contextMenuPolicy">
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #777;</string>
+                 </property>
                  <property name="text">
                   <string notr="true">0</string>
                  </property>
@@ -473,6 +488,9 @@
                  </property>
                  <property name="contextMenuPolicy">
                   <enum>Qt::ActionsContextMenu</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #777;</string>
                  </property>
                  <property name="text">
                   <string notr="true">0.00 DWE</string>
@@ -507,6 +525,9 @@
                </property>
                <property name="toolTip">
                 <string>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>ReScan</string>
@@ -627,6 +648,9 @@
              </item>
              <item>
               <widget class="QLabel" name="labelzDweSelected_int">
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0</string>
                </property>
@@ -663,6 +687,9 @@
              </item>
              <item>
               <widget class="QLabel" name="labelQuantitySelected_int">
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0</string>
                </property>
@@ -738,6 +765,9 @@
                 <string>Available (mature and spendable) zDWE for spending
 
 zDWE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
                </property>
                <property name="text">
                 <string>0 zDWE</string>
@@ -871,6 +901,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                  <property name="toolTip">
                   <string>The DWE address to send the payment to. Creates local payment to yourself when empty.</string>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: #777;</string>
+                 </property>
                 </widget>
                </item>
                <item>
@@ -949,6 +982,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                <property name="toolTip">
                 <string>Enter a label for this address to add it to the list of used addresses</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
+               </property>
               </widget>
              </item>
             </layout>
@@ -990,7 +1026,11 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
               </widget>
              </item>
              <item>
-              <widget class="QLineEdit" name="zDWEpayAmount"/>
+              <widget class="QLineEdit" name="zDWEpayAmount">
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
+               </property>
+              </widget>
              </item>
              <item>
               <widget class="QLabel" name="labelzDWE">
@@ -1005,6 +1045,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>zDWE</string>
@@ -1032,6 +1075,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                <property name="layoutDirection">
                 <enum>Qt::LeftToRight</enum>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
+               </property>
                <property name="text">
                 <string>Convert Change to Zerocoin (might cost additional fees)</string>
                </property>
@@ -1041,6 +1087,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
               <widget class="QCheckBox" name="checkBoxMinimizeChange">
                <property name="toolTip">
                 <string>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Minimize Change</string>
@@ -1098,6 +1147,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
            </property>
            <item>
             <widget class="QFrame" name="frmZerocoinStats">
+             <property name="styleSheet">
+              <string notr="true">background-color: #f7f7f7</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -1132,7 +1184,7 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                    <string>Information about the available Zerocoin funds.</string>
                   </property>
                   <property name="text">
-                   <string>Zerocoin Stats:</string>
+                   <string>&lt;span style=&quot;color: #999;&quot;&gt;Zerocoin Stats:&lt;/span&gt;</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1176,6 +1228,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                <property name="toolTip">
                 <string>Total Balance including unconfirmed and immature zDWE</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
+               </property>
                <property name="text">
                 <string>Total Zerocoin  Balance:</string>
                </property>
@@ -1214,6 +1269,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                <property name="toolTip">
                 <string>Total Balance including unconfirmed and immature zDWE</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 zDWE</string>
                </property>
@@ -1236,6 +1294,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
               <widget class="QLabel" name="labelzDenom1Text">
                <property name="toolTip">
                 <string>Denominations with value 1:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 1:</string>
@@ -1270,6 +1331,9 @@ zDWE are mature when they have more than 20 confirmations AND more than 2 mints 
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1295,6 +1359,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom2Text">
                <property name="toolTip">
                 <string>Denominations with value 5:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 5:</string>
@@ -1329,6 +1396,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1354,6 +1424,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom3Text">
                <property name="toolTip">
                 <string>Denominations with value 10:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 10:</string>
@@ -1388,6 +1461,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1413,6 +1489,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom4Text">
                <property name="toolTip">
                 <string>Denominations with value 50:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 50:</string>
@@ -1447,6 +1526,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1472,6 +1554,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom5Text">
                <property name="toolTip">
                 <string>Denominations with value 100:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 100:</string>
@@ -1506,6 +1591,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1531,6 +1619,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom6Text">
                <property name="toolTip">
                 <string>Denominations with value 500:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 500:</string>
@@ -1565,6 +1656,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1590,6 +1684,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom7Text">
                <property name="toolTip">
                 <string>Denominations with value 1000:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 1000:</string>
@@ -1624,6 +1721,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
                </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>0 x</string>
                </property>
@@ -1649,6 +1749,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
               <widget class="QLabel" name="labelzDenom8Text">
                <property name="toolTip">
                 <string>Denominations with value 5000:</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #777;</string>
                </property>
                <property name="text">
                 <string>Denom. with value 5000:</string>
@@ -1682,6 +1785,9 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
                <property name="toolTip">
                 <string>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 2 mints of the same denomination after it was minted</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
                </property>
                <property name="text">
                 <string>0 x</string>
