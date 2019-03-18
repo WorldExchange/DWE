@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>785</width>
+    <width>817</width>
     <height>457</height>
    </rect>
   </property>
@@ -50,7 +50,7 @@
          <item>
           <widget class="QLabel" name="updateNote">
            <property name="text">
-            <string>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see &quot;MISSING&quot; in &quot;Status&quot; field.</string>
+            <string>&lt;span style=&quot;color: #999;&quot;&gt;&lt;b&gt;Note:&lt;/b&gt; Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see &quot;&lt;span style=&quot;color: #3b50c7&quot;&gt;MISSING&lt;/span&gt;&quot; in &quot;&lt;span style=&quot;color: #3b50c7&quot;&gt;Status&lt;/span&gt;&quot; field.&lt;/span&gt;</string>
            </property>
           </widget>
          </item>
@@ -259,6 +259,9 @@
             </item>
             <item>
              <widget class="QLabel" name="secondsLabel">
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
               <property name="text">
                <string>0</string>
               </property>

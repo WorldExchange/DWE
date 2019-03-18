@@ -71,15 +71,20 @@ background-color:#F8F6F6;
 }
 
 QProgressBar {
-color:#d2d2d2;
-border:2px solid grey;
-border-radius:5px;
+color:#888;
+border:1px solid #ccc;
+border-radius:11px;
 background-color:transparent;
+padding: 1px;
 }
 
-QProgressBar::chunk {
-background-color:#3e2bce;
-width: 20px;
+QProgressBar:horizontal {
+    padding: 1px;
+}
+
+QProgressBar::chunk:horizontal {
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #0c203c, stop: 1 #2380ff);
+    border-radius: 11px;
 }
 
 QTabWidget {
