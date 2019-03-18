@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>776</width>
-    <height>412</height>
+    <height>413</height>
    </rect>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,1">
@@ -53,6 +53,13 @@
         </item>
         <item row="6" column="0">
          <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
           <property name="toolTip">
            <string>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DWE network.</string>
           </property>
@@ -72,6 +79,9 @@
           <property name="toolTip">
            <string>An optional label to associate with the new receiving address.</string>
           </property>
+          <property name="styleSheet">
+           <string notr="true">color: #777;</string>
+          </property>
          </widget>
         </item>
         <item row="6" column="2">
@@ -79,10 +89,16 @@
           <property name="toolTip">
            <string>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DWE network.</string>
           </property>
+          <property name="styleSheet">
+           <string notr="true">color: #777;</string>
+          </property>
          </widget>
         </item>
         <item row="2" column="2">
          <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">color: #777;</string>
+          </property>
           <property name="text">
            <string>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</string>
           </property>
@@ -93,6 +109,13 @@
         </item>
         <item row="4" column="0">
          <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
           <property name="toolTip">
            <string>An optional label to associate with the new receiving address.</string>
           </property>
@@ -109,6 +132,13 @@
         </item>
         <item row="5" column="0">
          <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
           <property name="toolTip">
            <string>An optional amount to request. Leave this empty or zero to not request a specific amount.</string>
           </property>
@@ -133,6 +163,9 @@
           </property>
           <property name="toolTip">
            <string>An optional amount to request. Leave this empty or zero to not request a specific amount.</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #777;</string>
           </property>
          </widget>
         </item>
@@ -296,6 +329,9 @@
          <enum>Qt::CustomContextMenu</enum>
         </property>
         <property name="tabKeyNavigation">
+         <bool>false</bool>
+        </property>
+        <property name="showGrid">
          <bool>false</bool>
         </property>
         <property name="sortingEnabled">
