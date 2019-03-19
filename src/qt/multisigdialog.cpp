@@ -827,6 +827,7 @@ void MultisigDialog::on_addAddressButton_clicked()
     QIcon icon3;
     icon3.addFile(QStringLiteral(":/icons/address-book"), QSize(), QIcon::Normal, QIcon::Off);
     addressBookButton->setIcon(icon3);
+    addressBookButton->setStyleSheet("border: none; padding-left: 5px; padding-right: 5px;");
     addressBookButton->setAutoDefault(false);
     connect(addressBookButton, SIGNAL(clicked()), this, SLOT(addressBookButtonReceiving()));
 
@@ -837,6 +838,7 @@ void MultisigDialog::on_addAddressButton_clicked()
     QIcon icon4;
     icon4.addFile(QStringLiteral(":/icons/editpaste"), QSize(), QIcon::Normal, QIcon::Off);
     addressPasteButton->setIcon(icon4);
+    addressPasteButton->setStyleSheet("border: none; padding-left: 5px; padding-right: 5px;");
     addressPasteButton->setAutoDefault(false);
     connect(addressPasteButton, SIGNAL(clicked()), this, SLOT(pasteText()));
 
@@ -847,6 +849,7 @@ void MultisigDialog::on_addAddressButton_clicked()
     QIcon icon5;
     icon5.addFile(QStringLiteral(":/icons/remove"), QSize(), QIcon::Normal, QIcon::Off);
     addressDeleteButton->setIcon(icon5);
+    addressDeleteButton->setStyleSheet("border: none; padding-left: 5px; padding-right: 5px;");
     addressDeleteButton->setAutoDefault(false);
     connect(addressDeleteButton, SIGNAL(clicked()), this, SLOT(deleteFrame()));
 
@@ -969,6 +972,7 @@ void MultisigDialog::on_addDestinationButton_clicked()
     QIcon icon;
     icon.addFile(QStringLiteral(":/icons/remove"), QSize(), QIcon::Normal, QIcon::Off);
     destinationDeleteButton->setIcon(icon);
+    destinationDeleteButton->setStyleSheet("border: none; padding-left: 5px; padding-right: 5px;");
     destinationDeleteButton->setAutoDefault(false);
     connect(destinationDeleteButton, SIGNAL(clicked()), this, SLOT(deleteFrame()));
     destinationLayout->addWidget(destinationDeleteButton);

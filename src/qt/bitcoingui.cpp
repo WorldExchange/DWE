@@ -252,7 +252,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), rpcConsole, SLOT(hide()));
 
-    connect(openBlockExplorerAction, SIGNAL(triggered()), explorerWindow, SLOT(show()));
+    // connect(openBlockExplorerAction, SIGNAL(triggered()), explorerWindow, SLOT(show()));
 
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), explorerWindow, SLOT(hide()));
@@ -450,8 +450,8 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
 
     openAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_FileIcon), tr("Open &URI..."), this);
     openAction->setStatusTip(tr("Open a DWE: URI or payment request"));
-    openBlockExplorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Blockchain explorer"), this);
-    openBlockExplorerAction->setStatusTip(tr("Block explorer window"));
+    // openBlockExplorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Blockchain explorer"), this);
+    // openBlockExplorerAction->setStatusTip(tr("Block explorer window"));
 
     showHelpMessageAction = new QAction(QApplication::style()->standardIcon(QStyle::SP_MessageBoxInformation), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
@@ -535,7 +535,7 @@ void BitcoinGUI::createMenuBar()
         tools->addAction(openConfEditorAction);
         tools->addAction(openMNConfEditorAction);
         tools->addAction(showBackupsAction);
-        tools->addAction(openBlockExplorerAction);
+        // tools->addAction(openBlockExplorerAction);
     }
 
     QMenu* help = appMenuBar->addMenu(tr("&Help"));
@@ -719,7 +719,7 @@ void BitcoinGUI::createTrayIconMenu()
     trayIconMenu->addAction(openConfEditorAction);
     trayIconMenu->addAction(openMNConfEditorAction);
     trayIconMenu->addAction(showBackupsAction);
-    trayIconMenu->addAction(openBlockExplorerAction);
+    // trayIconMenu->addAction(openBlockExplorerAction);
 #ifndef Q_OS_MAC // This is built-in on Mac
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(quitAction);
