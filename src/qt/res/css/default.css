@@ -70,22 +70,23 @@ QMessageBox {
 background-color:#F8F6F6;
 }
 
-QProgressBar {
-color:#888;
-border:1px solid #ccc;
-border-radius:11px;
-background-color:transparent;
-padding: 1px;
-}
+/*QProgressBar {*/
+    /*height: 20px;*/
+/*}*/
 
-QProgressBar:horizontal {
-    padding: 1px;
-}
+/*QProgressBar {*/
+/*color:#888;*/
+/*border:1px solid #ccc;*/
+/*border-radius:11px;*/
+/*background-color:transparent;*/
+/*padding: 1px !important;*/
+/*margin: 0 !important;*/
+/*}*/
 
-QProgressBar::chunk:horizontal {
-    background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #0c203c, stop: 1 #2380ff);
-    border-radius: 11px;
-}
+/*QProgressBar::chunk {*/
+    /*background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #0c203c, stop: 1 #2380ff);*/
+    /*margin: -10px !important;*/
+/*}*/
 
 QTabWidget {
 background-color:#f2f2f2;

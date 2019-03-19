@@ -217,7 +217,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     progressBarLabel->setVisible(true);
     progressBar = new GUIUtil::ProgressBar();
     progressBar->setAlignment(Qt::AlignCenter);
-    progressBar->setMaximumHeight(24);
+    progressBar->setMaximumHeight(48);
     progressBar->setVisible(true);
 
     // Override style sheet for progress bar for styles that have a segmented progress bar,
@@ -228,7 +228,7 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
         progressBar->setStyleSheet("QProgressBar { background-color: #F8F8F8; border: 1px solid grey; border-radius: 7px; padding: 1px; text-align: center; } QProgressBar::chunk { background: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #00CCFF, stop: 1 #33CCFF); border-radius: 7px; margin: 0px; }");
     }
 
-    statusBar()->setStyleSheet("background-color: #e3e3e3; padding: 5px 20px;");
+    statusBar()->setStyleSheet("background-color: #e3e3e3; height: 50px; padding: 5px 20px;");
 
     statusBar()->addWidget(progressBarLabel);
     statusBar()->addWidget(progressBar);
