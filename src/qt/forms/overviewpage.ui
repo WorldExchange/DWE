@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>802</height>
+    <height>806</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -136,6 +136,73 @@
             <property name="spacing">
              <number>12</number>
             </property>
+            <item row="2" column="2">
+             <widget class="QLabel" name="labelWatchPending">
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>IBeamCursor</cursorShape>
+              </property>
+              <property name="toolTip">
+               <string>Unconfirmed transactions to watch-only addresses</string>
+              </property>
+              <property name="text">
+               <string notr="true">0.000 000 00 DWE</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="labelWatchonly">
+              <property name="text">
+               <string>Watch-only:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="labelTotal">
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>IBeamCursor</cursorShape>
+              </property>
+              <property name="toolTip">
+               <string>Your current total balance</string>
+              </property>
+              <property name="text">
+               <string notr="true">0.000 000 00 DWE</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+              <property name="textInteractionFlags">
+               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="labelBalanceText">
+              <property name="text">
+               <string>Available:</string>
+              </property>
+             </widget>
+            </item>
             <item row="3" column="2">
              <widget class="QLabel" name="labelWatchImmature">
               <property name="font">
@@ -161,8 +228,15 @@
               </property>
              </widget>
             </item>
-            <item row="2" column="2">
-             <widget class="QLabel" name="labelWatchPending">
+            <item row="3" column="0">
+             <widget class="QLabel" name="labelImmatureText">
+              <property name="text">
+               <string>Immature:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="labelImmature">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -173,7 +247,7 @@
                <cursorShape>IBeamCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>Unconfirmed transactions to watch-only addresses</string>
+               <string>Staked or masternode rewards that has not yet matured</string>
               </property>
               <property name="text">
                <string notr="true">0.000 000 00 DWE</string>
@@ -211,8 +285,8 @@
               </property>
              </widget>
             </item>
-            <item row="4" column="1">
-             <widget class="QLabel" name="labelTotal">
+            <item row="1" column="2">
+             <widget class="QLabel" name="labelWatchAvailable">
               <property name="font">
                <font>
                 <weight>75</weight>
@@ -223,7 +297,7 @@
                <cursorShape>IBeamCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>Your current total balance</string>
+               <string>Your current balance in watch-only addresses</string>
               </property>
               <property name="text">
                <string notr="true">0.000 000 00 DWE</string>
@@ -233,23 +307,6 @@
               </property>
               <property name="textInteractionFlags">
                <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="2">
-             <widget class="QLabel" name="labelWatchonly">
-              <property name="text">
-               <string>Watch-only:</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QLabel" name="labelBalanceText">
-              <property name="text">
-               <string>Available:</string>
               </property>
              </widget>
             </item>
@@ -275,6 +332,13 @@
               </property>
               <property name="textInteractionFlags">
                <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="labelPendingText">
+              <property name="text">
+               <string>Pending:</string>
               </property>
              </widget>
             </item>
@@ -310,28 +374,13 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="2">
-             <widget class="QLabel" name="labelWatchAvailable">
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="cursor">
-               <cursorShape>IBeamCursor</cursorShape>
-              </property>
-              <property name="toolTip">
-               <string>Your current balance in watch-only addresses</string>
-              </property>
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelSpendable">
               <property name="text">
-               <string notr="true">0.000 000 00 DWE</string>
+               <string>Spendable:</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-              </property>
-              <property name="textInteractionFlags">
-               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
               </property>
              </widget>
             </item>
@@ -347,55 +396,6 @@
                </size>
               </property>
              </spacer>
-            </item>
-            <item row="3" column="1">
-             <widget class="QLabel" name="labelImmature">
-              <property name="font">
-               <font>
-                <weight>75</weight>
-                <bold>true</bold>
-               </font>
-              </property>
-              <property name="cursor">
-               <cursorShape>IBeamCursor</cursorShape>
-              </property>
-              <property name="toolTip">
-               <string>Staked or masternode rewards that has not yet matured</string>
-              </property>
-              <property name="text">
-               <string notr="true">0.000 000 00 DWE</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-              </property>
-              <property name="textInteractionFlags">
-               <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="0">
-             <widget class="QLabel" name="labelImmatureText">
-              <property name="text">
-               <string>Immature:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QLabel" name="labelSpendable">
-              <property name="text">
-               <string>Spendable:</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-              </property>
-             </widget>
-            </item>
-            <item row="2" column="0">
-             <widget class="QLabel" name="labelPendingText">
-              <property name="text">
-               <string>Pending:</string>
-              </property>
-             </widget>
             </item>
            </layout>
           </item>
@@ -1075,9 +1075,9 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
            </spacer>
           </item>
           <item>
-           <widget class="QFrame" name="frame_3">
+           <widget class="QFrame" name="frame_4">
             <property name="styleSheet">
-             <string notr="true">border-left: 1px solid #ddd;</string>
+             <string notr="true"/>
             </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
@@ -1085,76 +1085,63 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
              <property name="leftMargin">
-              <number>0</number>
+              <number>24</number>
              </property>
              <property name="topMargin">
-              <number>0</number>
+              <number>24</number>
              </property>
              <property name="rightMargin">
-              <number>0</number>
+              <number>24</number>
              </property>
              <property name="bottomMargin">
-              <number>0</number>
+              <number>24</number>
              </property>
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_2">
-               <property name="leftMargin">
-                <number>28</number>
+              <widget class="QLabel" name="label_4">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
                </property>
-               <property name="topMargin">
-                <number>24</number>
+               <property name="text">
+                <string>Recent transactions</string>
                </property>
-               <property name="bottomMargin">
-                <number>24</number>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="labelTransactionsStatus">
+               <property name="cursor">
+                <cursorShape>WhatsThisCursor</cursorShape>
                </property>
-               <item>
-                <widget class="QLabel" name="label_4">
-                 <property name="font">
-                  <font>
-                   <weight>75</weight>
-                   <bold>true</bold>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Recent transactions</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QLabel" name="labelTransactionsStatus">
-                 <property name="cursor">
-                  <cursorShape>WhatsThisCursor</cursorShape>
-                 </property>
-                 <property name="toolTip">
-                  <string>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</string>
-                 </property>
-                 <property name="styleSheet">
-                  <string notr="true">QLabel { color: red; }</string>
-                 </property>
-                 <property name="text">
-                  <string notr="true">(out of sync)</string>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <spacer name="horizontalSpacer">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>40</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-              </layout>
+               <property name="toolTip">
+                <string>The displayed information may be out of date. Your wallet automatically synchronizes with the DWE network after a connection is established, but this process has not completed yet.</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel { color: red; }</string>
+               </property>
+               <property name="text">
+                <string notr="true">(out of sync)</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>253</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
              </item>
             </layout>
            </widget>
@@ -1200,7 +1187,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                <item>
                 <widget class="QLabel" name="lblTxDesc">
                  <property name="styleSheet">
-                  <string notr="true">border: none;</string>
+                  <string notr="true">border: none; color: #9f9f9f</string>
                  </property>
                  <property name="text">
                   <string>Description</string>
@@ -1240,7 +1227,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                <item>
                 <widget class="QLabel" name="lblTxAmt">
                  <property name="styleSheet">
-                  <string notr="true">border: none;</string>
+                  <string notr="true">border: none; color: #9f9f9f</string>
                  </property>
                  <property name="text">
                   <string>Amount</string>

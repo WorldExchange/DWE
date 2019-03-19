@@ -7,13 +7,16 @@
     <x>0</x>
     <y>0</y>
     <width>850</width>
-    <height>610</height>
+    <height>683</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0,0">
+   <property name="spacing">
+    <number>0</number>
+   </property>
    <property name="leftMargin">
     <number>0</number>
    </property>
@@ -21,7 +24,7 @@
     <number>0</number>
    </property>
    <property name="bottomMargin">
-    <number>8</number>
+    <number>0</number>
    </property>
    <item>
     <widget class="QFrame" name="frameCoinControl">
@@ -761,25 +764,15 @@
              <number>0</number>
             </property>
             <item>
-             <spacer name="verticalSpacerSmartFee">
-              <property name="orientation">
-               <enum>Qt::Vertical</enum>
-              </property>
-              <property name="sizeType">
-               <enum>QSizePolicy::Fixed</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>1</width>
-                <height>4</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
              <layout class="QHBoxLayout" name="horizontalLayoutSmartFee">
               <property name="spacing">
                <number>10</number>
+              </property>
+              <property name="topMargin">
+               <number>12</number>
+              </property>
+              <property name="bottomMargin">
+               <number>12</number>
               </property>
               <item>
                <widget class="QLabel" name="labelFeeHeadline">
@@ -796,7 +789,7 @@
                  </font>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font-weight:bold;</string>
+                 <string notr="true">font-weight:bold; color: #9f9f9f</string>
                 </property>
                 <property name="text">
                  <string>Transaction Fee:</string>
@@ -805,6 +798,9 @@
               </item>
               <item>
                <widget class="QLabel" name="labelFeeMinimized">
+                <property name="styleSheet">
+                 <string notr="true">color: #3b50c7;</string>
+                </property>
                 <property name="text">
                  <string/>
                 </property>
@@ -828,19 +824,6 @@
                </widget>
               </item>
              </layout>
-            </item>
-            <item>
-             <spacer name="verticalSpacer_5">
-              <property name="orientation">
-               <enum>Qt::Vertical</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>1</width>
-                <height>1</height>
-               </size>
-              </property>
-             </spacer>
             </item>
            </layout>
           </item>
@@ -895,7 +878,7 @@
               <number>10</number>
              </property>
              <property name="verticalSpacing">
-              <number>4</number>
+              <number>24</number>
              </property>
              <item row="2" column="0">
               <layout class="QVBoxLayout" name="verticalLayoutFee9" stretch="0,0">
@@ -962,6 +945,9 @@
                    <property name="toolTip">
                     <string>If the custom fee is set to 1000 uDWEs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDWEs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDWEs. For transactions bigger than a kilobyte both pay by kilobyte.</string>
                    </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: #9f9f9f</string>
+                   </property>
                    <property name="text">
                     <string>per kilobyte</string>
                    </property>
@@ -978,6 +964,9 @@
                    <property name="toolTip">
                     <string>If the custom fee is set to 1000 uDWEs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDWEs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDWEs. For transactions bigger than a kilobyte both pay by kilobyte.</string>
                    </property>
+                   <property name="styleSheet">
+                    <string notr="true">color: #9f9f9f</string>
+                   </property>
                    <property name="text">
                     <string>total at least</string>
                    </property>
@@ -987,53 +976,60 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="BitcoinAmountField" name="customFee"/>
+                  <widget class="BitcoinAmountField" name="customFee">
+                   <property name="styleSheet">
+                    <string notr="true">color: #9f9f9f</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayoutFee8">
+                   <item>
+                    <widget class="QCheckBox" name="checkBoxMinimumFee">
+                     <property name="toolTip">
+                      <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DWE transactions than the network can process.</string>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="labelMinFeeWarning">
+                     <property name="enabled">
+                      <bool>true</bool>
+                     </property>
+                     <property name="toolTip">
+                      <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DWE transactions than the network can process.</string>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: #9f9f9f</string>
+                     </property>
+                     <property name="text">
+                      <string>(read the tooltip)</string>
+                     </property>
+                     <property name="margin">
+                      <number>5</number>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>1</width>
+                       <height>1</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
                  </item>
                  <item>
                   <spacer name="horizontalSpacer_6">
-                   <property name="orientation">
-                    <enum>Qt::Horizontal</enum>
-                   </property>
-                   <property name="sizeHint" stdset="0">
-                    <size>
-                     <width>1</width>
-                     <height>1</height>
-                    </size>
-                   </property>
-                  </spacer>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <layout class="QHBoxLayout" name="horizontalLayoutFee8">
-                 <item>
-                  <widget class="QCheckBox" name="checkBoxMinimumFee">
-                   <property name="toolTip">
-                    <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DWE transactions than the network can process.</string>
-                   </property>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QLabel" name="labelMinFeeWarning">
-                   <property name="enabled">
-                    <bool>true</bool>
-                   </property>
-                   <property name="toolTip">
-                    <string>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DWE transactions than the network can process.</string>
-                   </property>
-                   <property name="text">
-                    <string>(read the tooltip)</string>
-                   </property>
-                   <property name="margin">
-                    <number>5</number>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <spacer name="horizontalSpacer_2">
                    <property name="orientation">
                     <enum>Qt::Horizontal</enum>
                    </property>
@@ -1051,10 +1047,16 @@
              </item>
              <item row="1" column="2">
               <layout class="QHBoxLayout" name="horizontalLayoutFee9">
+               <property name="topMargin">
+                <number>0</number>
+               </property>
                <item>
                 <layout class="QVBoxLayout" name="verticalLayoutFee6">
                  <item>
                   <widget class="QLabel" name="labelSmartFee3">
+                   <property name="styleSheet">
+                    <string notr="true">color: #9f9f9f</string>
+                   </property>
                    <property name="text">
                     <string>Confirmation time:</string>
                    </property>
@@ -1080,6 +1082,9 @@
                </item>
                <item>
                 <layout class="QVBoxLayout" name="verticalLayoutFee5">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
                  <property name="rightMargin">
                   <number>30</number>
                  </property>
@@ -1115,8 +1120,11 @@
                   <layout class="QHBoxLayout" name="horizontalLayoutFee10">
                    <item>
                     <widget class="QLabel" name="labelSmartFeeNormal">
+                     <property name="styleSheet">
+                      <string notr="true">color: #9f9f9f</string>
+                     </property>
                      <property name="text">
-                      <string>normal</string>
+                      <string>Normal</string>
                      </property>
                     </widget>
                    </item>
@@ -1135,8 +1143,11 @@
                    </item>
                    <item>
                     <widget class="QLabel" name="labelSmartFeeFast">
+                     <property name="styleSheet">
+                      <string notr="true">color: #9f9f9f</string>
+                     </property>
                      <property name="text">
-                      <string>fast</string>
+                      <string>Fast</string>
                      </property>
                     </widget>
                    </item>
@@ -1176,6 +1187,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="labelSmartFee">
+                  <property name="styleSheet">
+                   <string notr="true">color: #9f9f9f</string>
+                  </property>
                   <property name="text">
                    <string/>
                   </property>
@@ -1186,6 +1200,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="labelFeeEstimation">
+                  <property name="styleSheet">
+                   <string notr="true">color: #9f9f9f</string>
+                  </property>
                   <property name="text">
                    <string/>
                   </property>
@@ -1193,6 +1210,9 @@
                 </item>
                 <item>
                  <widget class="QLabel" name="labelSmartFee2">
+                  <property name="styleSheet">
+                   <string notr="true">color: #9f9f9f</string>
+                  </property>
                   <property name="text">
                    <string>(Smart fee not initialized yet. This usually takes a few blocks...)</string>
                   </property>
@@ -1244,6 +1264,9 @@
              </property>
              <item>
               <widget class="QCheckBox" name="checkBoxFreeTx">
+               <property name="styleSheet">
+                <string notr="true">color: #3b50c7;</string>
+               </property>
                <property name="text">
                 <string>Send as zero-fee transaction if possible</string>
                </property>
@@ -1251,6 +1274,9 @@
              </item>
              <item>
               <widget class="QLabel" name="labelFreeTx">
+               <property name="styleSheet">
+                <string notr="true">color: #9f9f9f</string>
+               </property>
                <property name="text">
                 <string>(confirmation may take longer)</string>
                </property>
@@ -1323,6 +1349,9 @@
        </property>
        <item>
         <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">color: #9f9f9f</string>
+         </property>
          <property name="text">
           <string>Balance:</string>
          </property>
@@ -1338,6 +1367,9 @@
          </property>
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: #9f9f9f</string>
          </property>
          <property name="text">
           <string notr="true">123.456 DWE</string>
@@ -1393,6 +1425,9 @@
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: #3b50c7; margin: 0px 10px</string>
+       </property>
        <property name="text">
         <string>Add &amp;Recipient</string>
        </property>
@@ -1416,6 +1451,9 @@
        <property name="toolTip">
         <string>Clear all fields of the form.</string>
        </property>
+       <property name="styleSheet">
+        <string notr="true">margin: 0px 10px;</string>
+       </property>
        <property name="text">
         <string>Clear &amp;All</string>
        </property>
@@ -1438,6 +1476,9 @@
        </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">margin: 0px 10px;</string>
        </property>
        <property name="text">
         <string>S&amp;end</string>
