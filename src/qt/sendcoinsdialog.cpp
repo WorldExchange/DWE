@@ -38,10 +38,14 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent),
     ui->setupUi(this);
 
 #ifdef Q_OS_MAC // Icons on push buttons are very uncommon on Mac
-    ui->addButton->setIcon(QIcon());
-    ui->clearButton->setIcon(QIcon());
-    ui->sendButton->setIcon(QIcon());
+    //ui->addButton->setIcon(QIcon());
+    //ui->clearButton->setIcon(QIcon());
+    //ui->sendButton->setIcon(QIcon());
 #endif
+//
+//    QIcon icon1;
+//    icon1.addFile(QStringLiteral(":/icons/add_receipient_button_right"), QSize(), QIcon::Normal, QIcon::Off);
+//    ui->addButton->setIcon(icon1);
 
     GUIUtil::setupAddressWidget(ui->lineEditCoinControlChange, this);
 

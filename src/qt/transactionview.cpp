@@ -143,6 +143,8 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     view->setTabKeyNavigation(false);
     view->setContextMenuPolicy(Qt::CustomContextMenu);
+    // Set row height
+    view->verticalHeader()->setDefaultSectionSize(50);
 
     view->installEventFilter(this);
 

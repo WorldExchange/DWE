@@ -133,19 +133,16 @@ void ReceiveRequestDialog::update()
 
     QString uri = GUIUtil::formatBitcoinURI(info);
     ui->btnSaveAs->setEnabled(false);
-    QString html;
-    html += "<html><font face='verdana, arial, helvetica, sans-serif'>";
-    html += "<b>" + tr("Payment information") + "</b><br>";
-    html += "<b>" + tr("URI") + "</b>: ";
-    html += "<a style=\"color:#5B4C7C;\" href=\"" + uri + "\">" + GUIUtil::HtmlEscape(uri) + "</a><br>";
-    html += "<b>" + tr("Address") + "</b>: " + GUIUtil::HtmlEscape(info.address) + "<br>";
+
+    ui->lblURI->setText("<b>" + tr("URI") + "</b>: " + "<a href=\"" + uri + "\">" + GUIUtil::HtmlEscape(uri) + "</a>");
+    ui->lblAddress->setText("<b>" + tr("Address") + "</b>: " + GUIUtil::HtmlEscape(info.address));
+
     if (info.amount)
-        html += "<b>" + tr("Amount") + "</b>: " + BitcoinUnits::formatWithUnit(model->getDisplayUnit(), info.amount) + "<br>";
+        ui->lblAmount->setText("<b>" + tr("Amount") + "</b>: " + BitcoinUnits::formatWithUnit(model->getDisplayUnit(), info.amount));
     if (!info.label.isEmpty())
-        html += "<b>" + tr("Label") + "</b>: " + GUIUtil::HtmlEscape(info.label) + "<br>";
+        ui->lblLabel->setText("<b>" + tr("Label") + "</b>: " + GUIUtil::HtmlEscape(info.label));
     if (!info.message.isEmpty())
-        html += "<b>" + tr("Message") + "</b>: " + GUIUtil::HtmlEscape(info.message) + "<br>";
-    ui->outUri->setText(html);
+        ui->lblMessage->setText("<b>" + tr("Message") + "</b>: " + GUIUtil::HtmlEscape(info.message));
 
 #ifdef USE_QRCODE
     ui->lblQRCode->setText("");
@@ -170,7 +167,7 @@ void ReceiveRequestDialog::update()
             }
             QRcode_free(code);
 
-            ui->lblQRCode->setPixmap(QPixmap::fromImage(myImage).scaled(300, 300));
+            ui->lblQRCode->setPixmap(QPixmap::fromImage(myImage).scaled(260, 260));
             ui->btnSaveAs->setEnabled(true);
         }
     }

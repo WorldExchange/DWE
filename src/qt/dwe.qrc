@@ -53,6 +53,14 @@
         <file alias="browse">res/icons/browse.png</file>
         <file alias="staking_active">res/icons/staking_active.png</file>
         <file alias="staking_inactive">res/icons/staking_inactive.png</file>
+        <file alias="staking_inactive">res/icons/staking_inactive.png</file>
+        <file alias="btn_add_receipient_right">res/icons/add_receipient_button_right.png</file>
+        <file alias="btn_remove_left">res/icons/btn_remove_left.png</file>
+        <file alias="btn_send_right">res/icons/btn_send_right.png</file>
+        <file alias="btn_copy_uri_left">res/icons/btn_copy_uri_left.png</file>
+        <file alias="btn_copy_address_left">res/icons/btn_copy_address_left.png</file>
+        <file alias="btn_save_images_left">res/icons/btn_save_images_left.png</file>
+        <file alias="btn_view_selected_left">res/icons/btn_view_selected_left.png</file>
     </qresource>
     <qresource prefix="/css">
         <file alias="default">res/css/default.css</file>
