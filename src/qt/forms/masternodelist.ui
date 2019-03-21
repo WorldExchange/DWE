@@ -262,6 +262,9 @@
               <property name="autoFillBackground">
                <bool>false</bool>
               </property>
+              <property name="styleSheet">
+               <string notr="true">color: #3b50c7;</string>
+              </property>
               <property name="text">
                <string>0</string>
               </property>

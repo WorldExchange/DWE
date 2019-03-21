@@ -100,6 +100,14 @@ PrivacyDialog::PrivacyDialog(QWidget* parent) : QDialog(parent),
         ui->pushButtonSpendzDWE->setEnabled(false);
         ui->pushButtonSpendzDWE->setToolTip(tr("zDWE is currently disabled due to maintenance."));
     }
+
+    QIcon icon1;
+    icon1.addFile(QStringLiteral(":/icons/address-book"), QSize(), QIcon::Normal, QIcon::Off);
+    ui->addressBookButton->setIcon(icon1);
+
+    QIcon icon2;
+    icon2.addFile(QStringLiteral(":/icons/editpaste"), QSize(), QIcon::Normal, QIcon::Off);
+    ui->pasteButton->setIcon(icon2);
 }
 
 PrivacyDialog::~PrivacyDialog()

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>850</width>
-    <height>683</height>
+    <height>701</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -752,11 +752,14 @@
           <property name="leftMargin">
            <number>12</number>
           </property>
+          <property name="topMargin">
+           <number>12</number>
+          </property>
           <property name="rightMargin">
            <number>12</number>
           </property>
           <property name="bottomMargin">
-           <number>0</number>
+           <number>12</number>
           </property>
           <item>
            <layout class="QVBoxLayout" name="verticalLayoutFee7">
@@ -1425,6 +1428,9 @@
        <property name="toolTip">
         <string>Send to multiple recipients at once</string>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
        <property name="styleSheet">
         <string notr="true">color: #3b50c7; margin: 0px 10px</string>
        </property>
@@ -1433,7 +1439,7 @@
        </property>
        <property name="icon">
         <iconset resource="../dwe.qrc">
-         <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
+         <normaloff>:/icons/btn_add_receipient_right</normaloff>:/icons/btn_add_receipient_right</iconset>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1451,6 +1457,9 @@
        <property name="toolTip">
         <string>Clear all fields of the form.</string>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
        <property name="styleSheet">
         <string notr="true">margin: 0px 10px;</string>
        </property>
@@ -1459,7 +1468,7 @@
        </property>
        <property name="icon">
         <iconset resource="../dwe.qrc">
-         <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
+         <normaloff>:/icons/btn_remove_left</normaloff>:/icons/btn_remove_left</iconset>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1470,22 +1479,25 @@
       <widget class="QPushButton" name="sendButton">
        <property name="minimumSize">
         <size>
-         <width>150</width>
+         <width>0</width>
          <height>0</height>
         </size>
        </property>
        <property name="toolTip">
         <string>Confirm the send action</string>
        </property>
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
        <property name="styleSheet">
-        <string notr="true">margin: 0px 10px;</string>
+        <string notr="true">margin: 0px 20px;</string>
        </property>
        <property name="text">
         <string>S&amp;end</string>
        </property>
        <property name="icon">
         <iconset resource="../dwe.qrc">
-         <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
+         <normaloff>:/icons/btn_send_right</normaloff>:/icons/btn_send_right</iconset>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -1501,15 +1513,15 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QValidatedLineEdit</class>
-   <extends>QLineEdit</extends>
-   <header>qvalidatedlineedit.h</header>
-  </customwidget>
-  <customwidget>
    <class>BitcoinAmountField</class>
    <extends>QLineEdit</extends>
    <header>bitcoinamountfield.h</header>
    <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QValidatedLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources>
@@ -1517,7 +1529,7 @@
  </resources>
  <connections/>
  <buttongroups>
-  <buttongroup name="groupCustomFee"/>
   <buttongroup name="groupFee"/>
+  <buttongroup name="groupCustomFee"/>
  </buttongroups>
 </ui>

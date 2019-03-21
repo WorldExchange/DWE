@@ -25,7 +25,7 @@ if [ -e "$(which git 2>/dev/null)" -a "$(git rev-parse --is-inside-work-tree 2>/
     # DESC=$(git describe 2>/dev/null)
     # RAWDESC=$(git describe --abbrev=0 2>/dev/null)
     # git diff-index --quiet HEAD -- || DESC="$DESC-dirty"
-    DESC="v3.0.7"
+    DESC="v3.0.8"
 
     # get a string like "2012-04-10 16:27:19 +0200"
     LAST_COMMIT_DATE="$(git log -n 1 --format="%ci")"
