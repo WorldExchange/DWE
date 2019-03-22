@@ -1900,4 +1900,5 @@ QDialog#RPCConsole QPushButton#btn_zapwallettxes1,
 QDialog#RPCConsole QPushButton#btn_zapwallettxes2 {
     height: 20px !important;
     border-radius: 15px !important;
+    border: 1px solid #777;
 }
