@@ -1890,3 +1890,14 @@ QDialog#Bip38ToolDialog QPushButton#copyKeyButton_ENC {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+QDialog#RPCConsole QPushButton#btn_reindex,
+QDialog#RPCConsole QPushButton#btn_rescan,
+QDialog#RPCConsole QPushButton#btn_resync,
+QDialog#RPCConsole QPushButton#btn_salvagewallet,
+QDialog#RPCConsole QPushButton#btn_upgradewallet,
+QDialog#RPCConsole QPushButton#btn_zapwallettxes1,
+QDialog#RPCConsole QPushButton#btn_zapwallettxes2 {
+    height: 20px !important;
+    border-radius: 15px !important;
+}
