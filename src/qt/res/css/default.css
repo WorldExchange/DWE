@@ -1902,3 +1902,23 @@ QDialog#RPCConsole QPushButton#btn_zapwallettxes2 {
     border-radius: 15px !important;
     border: 1px solid #777;
 }
+
+QDialog#RPCConsole QPushButton#btn_reindex:focus,
+QDialog#RPCConsole QPushButton#btn_rescan:focus,
+QDialog#RPCConsole QPushButton#btn_resync:focus,
+QDialog#RPCConsole QPushButton#btn_salvagewallet:focus,
+QDialog#RPCConsole QPushButton#btn_upgradewallet:focus,
+QDialog#RPCConsole QPushButton#btn_zapwallettxes1:focus,
+QDialog#RPCConsole QPushButton#btn_zapwallettxes2:focus {
+    border: 1px solid #333;
+}
+
+QDialog#RPCConsole QPushButton#btn_reindex:pressed,
+QDialog#RPCConsole QPushButton#btn_rescan:pressed,
+QDialog#RPCConsole QPushButton#btn_resync:pressed,
+QDialog#RPCConsole QPushButton#btn_salvagewallet:pressed,
+QDialog#RPCConsole QPushButton#btn_upgradewallet:pressed,
+QDialog#RPCConsole QPushButton#btn_zapwallettxes1:pressed,
+QDialog#RPCConsole QPushButton#btn_zapwallettxes2:pressed {
+    border: 1px solid #333;
+}
